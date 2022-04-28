@@ -1515,3 +1515,6 @@
 2022-04-29 00:14:02.544336: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-04-29 00:14:02.614149: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-04-29 00:14:02.686818: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-29 00:25:54.568510: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-29 00:26:01.274717: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-29 00:26:07.848783: [WinError 10035] A non-blocking socket operation could not be completed immediately
