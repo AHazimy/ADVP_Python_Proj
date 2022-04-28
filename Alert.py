@@ -20,7 +20,7 @@ import numpy as np
 import cv2
 import imutils
 import base64
-from login import Ui_Form
+from loginUi4 import Ui_Form
 import hashlib
 # import rsa
 
@@ -30,9 +30,9 @@ class Login(QDialog, Ui_Form):
     def __init__(self, parent=None):
         super(Login, self).__init__(parent)
         self.setupUi(self)
-        self.Title_text()
+        # self.Title_text()
         self.pushButton.clicked.connect(self.handleLogin)
-        self.exit_btn.clicked.connect(self.close)
+        # self.exit_btn.clicked.connect(self.close)
         
     def Title_text(self):
         # config = ConfigParser()
