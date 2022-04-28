@@ -32,13 +32,10 @@ class Login(QDialog, Ui_Form):
         self.setupUi(self)
         # self.Title_text()
         self.pushButton.clicked.connect(self.handleLogin)
+        
         # self.exit_btn.clicked.connect(self.close)
         
-    def Title_text(self):
-        # config = ConfigParser()
-        # config.read('Config.ini')
-        # title = config.get('STATUS', 'TITLE')
-        self.label_7.setText("CamSec")
+    
         
     def handleLogin(self):
         db_files=[]
@@ -81,6 +78,12 @@ class Login(QDialog, Ui_Form):
         else:
             QMessageBox.warning(
                 self, 'Error', 'Incorrect Username or Password!')
+            
+    def keyPressEvent(self, event):  
+        if event.key() == Qt.Key_Escape:
+            self.close()
+        elif event.key() == Qt.Key_Return:
+            self.handleLogin()
             
 
 

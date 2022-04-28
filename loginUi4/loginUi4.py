@@ -3,7 +3,7 @@
 ######################################################
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import sys, res
+import sys, res, res_cam_rc
 
 class Ui_Form(object):
     def setupUi(self, Form):
