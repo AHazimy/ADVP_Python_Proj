@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="Cam">
+    <file>pngwing.com.png</file>
     <file>Cam_pic.jpg</file>
   </qresource>
 </RCC>

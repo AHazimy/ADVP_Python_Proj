@@ -30,14 +30,14 @@ class Ui_Form(object):
 "    background-color:rgba(105, 118, 132, 200);\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_2, #pushButton_3, #pushButton_4, #pushButton_5{    \n"
+"QPushButton#pushButton_fb, #pushButton_twitt, #pushButton_yt, #pushButton_in{    \n"
 "    background-color: rgba(0, 0, 0, 0);\n"
 "    color:rgba(85, 98, 112, 255);\n"
 "}\n"
-"QPushButton#pushButton_2:hover, #pushButton_3:hover, #pushButton_4:hover, #pushButton_5:hover{    \n"
+"QPushButton#pushButton_fb:hover, #pushButton_twitt:hover, #pushButton_yt:hover, #pushButton_in:hover{    \n"
 "    color:rgba(155, 168, 182, 220);\n"
 "}\n"
-"QPushButton#pushButton_2:pressed, #pushButton_3:pressed, #pushButton_4:pressed, #pushButton_5:pressed{    \n"
+"QPushButton#pushButton_fb:pressed, #pushButton_twitt:pressed, #pushButton_yt:pressed, #pushButton_in:pressed{    \n"
 "    padding-left:5px;\n"
 "    padding-top:5px;\n"
 "    color:rgba(115, 128, 142, 255);\n"
@@ -51,33 +51,34 @@ class Ui_Form(object):
         self.label.setText("")
         self.label.setObjectName("label")
         self.pushButton_6 = QtWidgets.QPushButton(self.widget)
-        self.pushButton_6.setGeometry(QtCore.QRect(125, 360, 200, 40))
+        self.pushButton_6.setGeometry(QtCore.QRect(94, 340, 251, 40))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_6.setFont(font)
+        self.pushButton_6.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_6.setObjectName("pushButton_6")
         self.label_2 = QtWidgets.QLabel(self.widget)
-        self.label_2.setGeometry(QtCore.QRect(70, 79, 300, 351))
-        self.label_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 75));\n"
+        self.label_2.setGeometry(QtCore.QRect(70, 79, 301, 351))
+        self.label_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0.488318, y1:0.733, x2:0.488636, y2:1, stop:0 rgba(126, 126, 126, 0), stop:1 rgba(36, 36, 36, 198));\n"
 "border-radius:20px;")
         self.label_2.setText("")
         self.label_2.setPixmap(QtGui.QPixmap(":/images/bianry_eye.jpg"))
         self.label_2.setObjectName("label_2")
         self.label_4 = QtWidgets.QLabel(self.widget)
-        self.label_4.setGeometry(QtCore.QRect(180, 86, 90, 40))
+        self.label_4.setGeometry(QtCore.QRect(159, 85, 111, 41))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(24)
         font.setBold(True)
         font.setWeight(75)
         self.label_4.setFont(font)
         self.label_4.setStyleSheet("color:rgba(255, 255, 255, 210);")
         self.label_4.setObjectName("label_4")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
-        self.lineEdit_2.setGeometry(QtCore.QRect(125, 221, 200, 40))
+        self.lineEdit_2.setGeometry(QtCore.QRect(94, 221, 251, 40))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(14)
         self.lineEdit_2.setFont(font)
         self.lineEdit_2.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
 "border:none;\n"
@@ -87,17 +88,18 @@ class Ui_Form(object):
         self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.pushButton = QtWidgets.QPushButton(self.widget)
-        self.pushButton.setGeometry(QtCore.QRect(125, 301, 200, 40))
+        self.pushButton.setGeometry(QtCore.QRect(94, 290, 251, 40))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButton.setFont(font)
+        self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setObjectName("pushButton")
         self.lineEdit = QtWidgets.QLineEdit(self.widget)
-        self.lineEdit.setGeometry(QtCore.QRect(125, 156, 200, 40))
+        self.lineEdit.setGeometry(QtCore.QRect(94, 156, 251, 40))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(14)
         self.lineEdit.setFont(font)
         self.lineEdit.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
 "border:none;\n"
@@ -105,6 +107,49 @@ class Ui_Form(object):
 "color:rgba(255, 255, 255, 230);\n"
 "padding-bottom:7px;")
         self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayoutWidget = QtWidgets.QWidget(self.widget)
+        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(150, 390, 141, 41))
+        self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setSpacing(0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.pushButton_fb = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+        self.pushButton_fb.setMaximumSize(QtCore.QSize(30, 30))
+        font = QtGui.QFont()
+        font.setFamily("Social Media Circled")
+        font.setPointSize(15)
+        self.pushButton_fb.setFont(font)
+        self.pushButton_fb.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_fb.setObjectName("pushButton_fb")
+        self.horizontalLayout.addWidget(self.pushButton_fb)
+        self.pushButton_twitt = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+        self.pushButton_twitt.setMaximumSize(QtCore.QSize(30, 30))
+        font = QtGui.QFont()
+        font.setFamily("Social Media Circled")
+        font.setPointSize(15)
+        self.pushButton_twitt.setFont(font)
+        self.pushButton_twitt.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_twitt.setObjectName("pushButton_twitt")
+        self.horizontalLayout.addWidget(self.pushButton_twitt)
+        self.pushButton_yt = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+        self.pushButton_yt.setMaximumSize(QtCore.QSize(30, 30))
+        font = QtGui.QFont()
+        font.setFamily("Social Media Circled")
+        font.setPointSize(15)
+        self.pushButton_yt.setFont(font)
+        self.pushButton_yt.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_yt.setObjectName("pushButton_yt")
+        self.horizontalLayout.addWidget(self.pushButton_yt)
+        self.pushButton_in = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+        self.pushButton_in.setMaximumSize(QtCore.QSize(30, 30))
+        font = QtGui.QFont()
+        font.setFamily("Social Media Circled")
+        font.setPointSize(15)
+        self.pushButton_in.setFont(font)
+        self.pushButton_in.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_in.setObjectName("pushButton_in")
+        self.horizontalLayout.addWidget(self.pushButton_in)
         self.label.raise_()
         self.label_2.raise_()
         self.label_4.raise_()
@@ -112,6 +157,7 @@ class Ui_Form(object):
         self.lineEdit_2.raise_()
         self.pushButton.raise_()
         self.pushButton_6.raise_()
+        self.horizontalLayoutWidget.raise_()
         self.label_6 = QtWidgets.QLabel(Form)
         self.label_6.setGeometry(QtCore.QRect(270, 89, 791, 551))
         self.label_6.setStyleSheet("background-image: url(:/Cam/Cam_pic.jpg);\n"
@@ -151,11 +197,22 @@ class Ui_Form(object):
         self.label_9.setFont(font)
         self.label_9.setStyleSheet("color: rgb(173, 177, 180);")
         self.label_9.setObjectName("label_9")
+        self.label_10 = QtWidgets.QLabel(Form)
+        self.label_10.setGeometry(QtCore.QRect(280, 610, 81, 31))
+        font = QtGui.QFont()
+        font.setFamily("Stencil")
+        font.setPointSize(15)
+        font.setBold(False)
+        font.setWeight(50)
+        self.label_10.setFont(font)
+        self.label_10.setStyleSheet("color: rgb(173, 177, 180);")
+        self.label_10.setObjectName("label_10")
         self.label_6.raise_()
         self.label_7.raise_()
         self.widget.raise_()
         self.label_8.raise_()
         self.label_9.raise_()
+        self.label_10.raise_()
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -168,8 +225,13 @@ class Ui_Form(object):
         self.lineEdit_2.setPlaceholderText(_translate("Form", "  Password"))
         self.pushButton.setText(_translate("Form", "L o g  I n"))
         self.lineEdit.setPlaceholderText(_translate("Form", "  User Name"))
+        self.pushButton_fb.setText(_translate("Form", "E"))
+        self.pushButton_twitt.setText(_translate("Form", "D"))
+        self.pushButton_yt.setText(_translate("Form", "M"))
+        self.pushButton_in.setText(_translate("Form", "C"))
         self.label_8.setText(_translate("Form", "Surveillence "))
         self.label_9.setText(_translate("Form", "System"))
+        self.label_10.setText(_translate("Form", "Client"))
 
 import res_cam
 import res

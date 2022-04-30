@@ -22,6 +22,7 @@ import imutils
 import base64
 from loginUi4 import Ui_Form
 import hashlib
+import webbrowser
 # import rsa
 
 # hide = win32gui.GetForegroundWindow()
@@ -32,8 +33,12 @@ class Login(QDialog, Ui_Form):
         self.setupUi(self)
         # self.Title_text()
         self.pushButton.clicked.connect(self.handleLogin)
-        
+        self.pushButton_6.clicked.connect(lambda: self.close())
         # self.exit_btn.clicked.connect(self.close)
+        self.pushButton_fb.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
+        self.pushButton_twitt.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
+        self.pushButton_yt.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
+        self.pushButton_in.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
         
     
         
