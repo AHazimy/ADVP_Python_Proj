@@ -14,6 +14,14 @@ import hashlib
 import sqlite3
 
 
+import json
+from base64 import b64encode,b64decode
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad,unpad
+from Cryptodome.Random import get_random_bytes
+
+
+
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -89,6 +97,21 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             print(message_2)
             Server.sendto(message_2,client_addr)
             i+=1
+            
+            
+            data = b"Hello World!"
+
+            key = b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
+            cipher = AES.new(key, AES.MODE_CBC)
+            ct_bytes = cipher.encrypt(pad(data, AES.block_size))
+            iv = "UzEB1gJdmLjCmk3JUWJGkQ=="
+            ct = "jSFaA8G9qoJycykDGUJq7Q=="
+            result = json.dumps({'iv':iv, 'ciphertext':ct})
+            result=result.encode()
+            print(result)
+            Server.sendto(result,client_addr)
+            print("Second sended is: "+str(result))
+            
             time.sleep(0.02)
 
 

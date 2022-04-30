@@ -25,6 +25,13 @@ import hashlib
 import webbrowser
 # import rsa
 
+
+import json
+from base64 import b64encode,b64decode
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad,unpad
+from Cryptodome.Random import get_random_bytes
+
 # hide = win32gui.GetForegroundWindow()
 # win32gui.ShowWindow(hide , win32con.SW_HIDE)
 class Login(QDialog, Ui_Form):
@@ -471,6 +478,20 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     # try:
                     msgFromServer_2= UDPClientSocket.recvfrom(BUFF_SIZE)
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
+                    
+                    result=UDPClientSocket.recvfrom(BUFF_SIZE)
+                    result=result[0]
+                    key=b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
+                    try:
+                        b64 = json.loads(result)
+                        iv = b64decode(b64['iv'])
+                        ct = b64decode(b64['ciphertext'])
+                        cipher = AES.new(key, AES.MODE_CBC, iv)
+                        pt = unpad(cipher.decrypt(ct), AES.block_size)
+                        print("The message was: ", pt)
+                    except (ValueError, KeyError):
+                        print("Incorrect decryption")
+                    
                         
                     # except Exception as e:
                     #     print(e)
