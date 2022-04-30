@@ -104,8 +104,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             key = b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
             cipher = AES.new(key, AES.MODE_CBC)
             ct_bytes = cipher.encrypt(pad(data, AES.block_size))
-            iv = "UzEB1gJdmLjCmk3JUWJGkQ=="
-            ct = "jSFaA8G9qoJycykDGUJq7Q=="
+            iv =b64encode(b"UzEB1gJdmLjCmk3JUWJGkQ==").decode('utf-8')
+            ct = b64encode(ct_bytes).decode('utf-8')
             result = json.dumps({'iv':iv, 'ciphertext':ct})
             result=result.encode()
             print(result)

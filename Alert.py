@@ -480,17 +480,20 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
                     
                     result=UDPClientSocket.recvfrom(BUFF_SIZE)
-                    result=result[0]
+                    result=result[0].decode()
+                    print("result is: "+str(result))
                     key=b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
                     try:
                         b64 = json.loads(result)
                         iv = b64decode(b64['iv'])
                         ct = b64decode(b64['ciphertext'])
                         cipher = AES.new(key, AES.MODE_CBC, iv)
-                        pt = unpad(cipher.decrypt(ct), AES.block_size)
-                        print("The message was: ", pt)
-                    except (ValueError, KeyError):
-                        print("Incorrect decryption")
+                        # pt = unpad(cipher.decrypt(ct), AES.block_size)
+                        decrypted_data = unpad(cipher.decrypt(ct), AES.block_size)
+                        # decrypted_data=decrypted_data.decode()
+                        print("The message was: ", decrypted_data)
+                    except Exception as e:
+                        print(e)
                     
                         
                     # except Exception as e:
