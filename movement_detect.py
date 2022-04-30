@@ -36,7 +36,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     check=None
     buffer=None
-    
+    img=None
     camValue=0
     
     def thread_server(self):
@@ -94,23 +94,24 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             Server.sendto(message,client_addr)
             message_2=str(Status).encode('utf-8')
             print("Status_2 is: "+str(Status))
-            print(message_2)
-            Server.sendto(message_2,client_addr)
+            # print(message_2)
+            # Server.sendto(message_2,client_addr)
             i+=1
             
             
             data = b"Hello World!"
-
+            print("Without: "+str(message[50:]))
             key = b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
             cipher = AES.new(key, AES.MODE_CBC)
-            ct_bytes = cipher.encrypt(pad(data, AES.block_size))
-            iv =b64encode(b"UzEB1gJdmLjCmk3JUWJGkQ==").decode('utf-8')
+            ct_bytes = cipher.encrypt(pad(message, AES.block_size))
+            print("With: "+str(ct_bytes[:-50]))
+            iv =b64encode(cipher.iv).decode('utf-8')
             ct = b64encode(ct_bytes).decode('utf-8')
             result = json.dumps({'iv':iv, 'ciphertext':ct})
             result=result.encode()
-            print(result)
+            # print(result)
             Server.sendto(result,client_addr)
-            print("Second sended is: "+str(result))
+            # print("Second sended is: "+str(result))
             
             time.sleep(0.02)
 
@@ -177,7 +178,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             if status_list[-1]==0 and status_list[-2]==1:
                 times.append(datetime.now())
             frame  = imutils.resize(frame ,height = 480, width = 640)
-            encoded,self.buffer = cv2.imencode('.jpg',frame,[cv2.IMWRITE_JPEG_QUALITY,80])
+            encoded,self.buffer = cv2.imencode('.jpg',frame,[cv2.IMWRITE_JPEG_QUALITY,50])
             frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
             self.label_img.setPixmap(QPixmap.fromImage(frame))
             # message = base64.b64encode(buffer)

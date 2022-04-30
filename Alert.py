@@ -418,7 +418,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         # UDPClientSocket.settimeout(0.02)
         UDPClientSocket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
-        UDPClientSocket.setblocking(False)
+        UDPClientSocket.setblocking(1)
         host_ip = configur.get('SETTING','IP')
         port=9999
         serverAddressPort= (configur.get('SETTING','IP'), 1500)
@@ -465,14 +465,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     # r_img = cv2.imdecode(receive_data, cv2.IMREAD_COLOR)
                     # cv2.putText(r_img, "Live", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
                     # print("Received from server"+ str(r_img))
-                    packet,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
-                    data = base64.b64decode(packet,' /')
-                    npdata = np.frombuffer(data,dtype=np.uint8)
-                    frame = cv2.imdecode(npdata,cv2.IMREAD_COLOR)
+                    # packet,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
+                    # print("This packet: "+str(packet[:50]))
+                    # data = base64.b64decode(packet,' /')
+                    # npdata = np.frombuffer(data,dtype=np.uint8)
+                    # frame = cv2.imdecode(npdata,cv2.IMREAD_COLOR)
+                    # first_frame=frame
                     
-                    frame = imutils.resize(frame ,height = 480, width = 640)
-                    frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
-                    self.label_img.setPixmap(QPixmap.fromImage(frame))
+                    # frame = imutils.resize(frame ,height = 480, width = 640)
+                    # frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
+                    # self.label_img.setPixmap(QPixmap.fromImage(frame))
                     
                     
                     # try:
@@ -480,8 +482,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
                     
                     result=UDPClientSocket.recvfrom(BUFF_SIZE)
+                    # print("This result "+str(result[:50]))
                     result=result[0].decode()
-                    print("result is: "+str(result))
+                    # print("result is: "+str(result))
                     key=b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
                     try:
                         b64 = json.loads(result)
@@ -491,7 +494,15 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         # pt = unpad(cipher.decrypt(ct), AES.block_size)
                         decrypted_data = unpad(cipher.decrypt(ct), AES.block_size)
                         # decrypted_data=decrypted_data.decode()
-                        print("The message was: ", decrypted_data)
+                        # print("The message was: ", decrypted_data)
+                        decrypted_data_2 = base64.b64decode(decrypted_data,' /')
+                        npdata_2 = np.frombuffer(decrypted_data_2,dtype=np.uint8)
+                        frame_2 = cv2.imdecode(npdata_2,cv2.IMREAD_COLOR)
+                        frame_2 = imutils.resize(frame_2 ,height = 480, width = 640)
+                        frame_2 = QImage(frame_2, frame_2.shape[1],frame_2.shape[0],frame_2.strides[0],QImage.Format_RGB888)
+                        self.label_img.setPixmap(QPixmap.fromImage(frame_2))
+                        # print("original_frame: "+str(first_frame))
+                        # print("second_frame: "+str(frame_2))
                     except Exception as e:
                         print(e)
                     
@@ -507,7 +518,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     
                     
                     # msg = '0'
-                    print(msgFromServer_2)
+                    # print(msgFromServer_2)
                     self.scan_label.setText('Scanning.'+i*str('.'))
                     
                     time.sleep(0.02)
