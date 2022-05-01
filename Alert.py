@@ -23,6 +23,7 @@ import base64
 from loginUi4 import Ui_Form
 import hashlib
 import webbrowser
+import smtplib, ssl
 # import rsa
 
 
@@ -375,13 +376,35 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.spinBox_mute.setEnabled(False)
             self.label_3.setEnabled(False)
             
+    email_value = 0
+    email_date = None        
+            
+            
     def play_sound(self):
         
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
+        port = 465  # For SSL
+        smtp_server = "smtp.gmail.com"
+        sender_email = "ahh018@usal.edu.lb"  # Enter your address
+        receiver_email = "fhh036@usal.edu.lb"  # Enter receiver address
+        password = '@5564576239@Aa'
+        message = """\
+        A Movement was Detected"""
+        context = ssl.create_default_context()
+        
         # t=0
         while True:
+            
             if self.sound_value == 1:
+                
+                if self.email_value == 0:
+                    self.email_date=dt.now()
+                    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+                        server.login(sender_email, password)
+                        server.sendmail(sender_email, receiver_email, message)
+                    print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
+                self.email_value = 1    
                 if self.checkBox_pause.isChecked() == True:
                     
                     if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=self.spinBox_mute.value()):
@@ -395,6 +418,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 self.label.setStyleSheet('background-color:red')
                 time.sleep(1)
             time.sleep(2)
+            try:
+                if dt.now() > self.email_date+pd.DateOffset(minutes=5):
+                    self.email_value=0
+            except:
+                pass
             
             
     def thread_play_alert(self):
@@ -418,7 +446,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         # UDPClientSocket.settimeout(0.02)
         UDPClientSocket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
-        UDPClientSocket.setblocking(1)
+        UDPClientSocket.setblocking(False)
         host_ip = configur.get('SETTING','IP')
         port=9999
         serverAddressPort= (configur.get('SETTING','IP'), 1500)
@@ -501,10 +529,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         frame_2 = imutils.resize(frame_2 ,height = 480, width = 640)
                         frame_2 = QImage(frame_2, frame_2.shape[1],frame_2.shape[0],frame_2.strides[0],QImage.Format_RGB888)
                         self.label_img.setPixmap(QPixmap.fromImage(frame_2))
-                        # print("original_frame: "+str(first_frame))
-                        # print("second_frame: "+str(frame_2))
+                            # print("original_frame: "+str(first_frame))
+                            # print("second_frame: "+str(frame_2))
                     except Exception as e:
-                        print(e)
+                        print("Error is: "+str(e))
+                        continue
                     
                         
                     # except Exception as e:

@@ -3204,3 +3204,288 @@
 2022-05-01 00:43:55.586788: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-01 00:43:56.094389: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-01 00:43:56.489974: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:16.886000: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:23.711127: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:33.273050: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:42.266829: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:44.062359: wrapped C/C++ object of type QLabel has been deleted
+2022-05-01 15:44:37.638922: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:42:41.944097: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:42:54.671053: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:07.707178: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:09.207211: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:09.618306: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:14.714879: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:17.956047: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:18.409885: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:19.433900: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.141121: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.767050: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.941713: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:21.556985: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:22.983908: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:23.518479: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.246534: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.384551: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.665246: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:25.648858: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:25.957783: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.616925: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.748720: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.879932: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:27.875863: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:28.155117: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.016538: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.162794: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.588308: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.915726: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:30.633779: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:31.014761: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:32.633631: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:33.995989: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:35.341994: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:36.444107: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:36.902967: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:37.693794: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:37.986975: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:38.466693: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:39.605908: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:40.542195: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.093111: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.733720: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.860664: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.999295: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:42.912576: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:44.404801: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:45.475274: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:46.192358: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:50:39.359620: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:51:29.463375: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:53:03.865141: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:56:20.616659: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:58:09.676811: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:58:30.908644: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:59:55.949396: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:00:13.462788: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:01:04.175798: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:02:12.091594: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:03:35.558747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:05:21.084391: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:05:43.724079: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:20.586029: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:38.334559: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:42.413153: wrapped C/C++ object of type QLabel has been deleted
+2022-05-02 00:07:09.646564: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:09:37.402700: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:11:12.319928: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:11:34.686665: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:12:19.515089: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:12:51.171319: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:13:07.762747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:13:28.722326: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:14:14.904346: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.010802: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.139950: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.262257: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.363157: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.491332: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.588218: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.716635: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.846659: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.944662: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.041582: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.169924: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.265958: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.378684: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.488035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.597383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.694274: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.790591: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.902431: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.015131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.111255: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.210949: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.308044: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.420540: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.517453: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.629911: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.739260: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.891976: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.007666: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.116375: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.226229: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.347298: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.471730: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.579441: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.679174: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.792870: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.903573: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:19.003306: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:33.961348: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.057733: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.186166: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.296006: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.424035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.521027: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.617967: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.715360: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.827979: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.924837: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.037170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.136207: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.233449: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.330680: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.445133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.542254: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.655456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.752308: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.879438: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.988788: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.087401: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.185960: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.283474: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.380624: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.489975: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.599321: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.696189: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.792204: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.904743: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.082572: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.187292: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.283036: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.393740: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.496467: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.602183: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.700921: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.153770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.280765: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.418661: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.552508: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.682633: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.789387: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.933141: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.047946: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.160450: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.273369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.386041: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.515546: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.629689: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.758369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.870929: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.983480: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.111507: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.223975: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.336563: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.481323: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.609649: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.722336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.850350: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.963111: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.091287: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.203773: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.347421: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.475609: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.604136: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.732232: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.844650: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.988363: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.116771: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.268378: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.410000: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.546634: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.673297: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.801951: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.926618: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.045301: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.160637: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.304482: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:17:28.681883: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:28.845067: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.087181: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:29.230493: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.342420: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.446143: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:31.459746: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:31.558135: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:32.236395: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:32.341534: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:38.669465: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:38.759053: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:18:31.392491: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:18:41.533746: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:20:59.106999: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:21:47.952870: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.095487: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.219834: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.358133: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.463614: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.561070: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.658925: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.770823: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.901104: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.999840: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.104563: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.207209: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.308309: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.406389: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.519564: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.632438: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.730082: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.842624: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.940621: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.061480: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.161384: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.280669: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.392910: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.486946: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.580947: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.693323: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.802964: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.900148: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.027821: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.148295: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.264984: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.399347: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.503071: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.618355: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.738256: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.864051: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.972760: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.105406: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.205140: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.323821: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.435523: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.530269: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.631996: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.725746: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.826477: 'str' object has no attribute 'decode'
+2022-05-02 00:21:59.989194: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.104885: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.212596: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.334844: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.455027: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.581433: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.684159: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.767738: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.890020: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.011928: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.131125: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.234688: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.343606: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.483887: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.590159: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.690092: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.810479: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.934028: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.073101: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.177822: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.281543: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.380279: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.497970: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.592712: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.696433: 'str' object has no attribute 'decode'
+2022-05-02 00:23:00.575608: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:23:54.245733: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:24:46.954517: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:24:50.219041: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:26:02.156481: [WinError 10035] A non-blocking socket operation could not be completed immediately
