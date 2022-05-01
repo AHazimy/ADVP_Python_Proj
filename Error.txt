@@ -1710,6 +1710,7 @@
 2022-04-30 03:18:05.950065: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-04-30 03:18:06.292476: Invalid base64-encoded string: number of data characters (1) cannot be 1 more than a multiple of 4
 2022-04-30 03:18:06.651537: Invalid base64-encoded string: number of data characters (1) cannot be 1 more than a multiple of 4
+<<<<<<< HEAD
 2022-05-01 00:54:52.629064: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-05-01 00:54:52.730909: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-05-01 00:54:52.841495: [WinError 10054] An existing connection was forcibly closed by the remote host
@@ -1778,3 +1779,1784 @@
 2022-05-01 00:54:59.802855: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-05-01 00:54:59.905581: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-05-01 00:55:00.001324: [WinError 10054] An existing connection was forcibly closed by the remote host
+=======
+2022-04-30 18:07:38.398018: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:38.524748: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:38.643126: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:38.748265: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:38.857700: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:38.992532: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.101050: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.217722: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.317703: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.437681: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.562210: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.690834: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.824477: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:39.947860: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.076865: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.187672: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.301497: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.418161: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.539997: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.662502: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.785799: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:40.898105: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.024017: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.160805: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.269826: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.383035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.532158: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.652987: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.777823: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:41.898987: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.023995: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.135697: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.257889: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.377703: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.517004: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.636684: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.757907: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:42.887876: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.022619: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.138310: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.247701: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.358010: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.489682: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.603380: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.728570: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.853189: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:43.975905: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.088609: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.188020: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.298076: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.407853: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.532704: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.649770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.762755: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:44.873459: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.000120: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.112820: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.229895: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.337946: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.459825: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.572522: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.680197: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:45.790714: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.006303: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.151425: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.293835: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.461386: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.623951: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.744777: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.851293: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:46.967219: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.080176: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.221626: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 18:07:47.347797: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.473461: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.587593: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.708065: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.825869: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:47.942558: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.055256: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.164963: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.271079: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.378770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.508883: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.639393: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.756005: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.857776: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:48.981437: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.102114: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.222195: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.347824: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.469761: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.579468: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.708391: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.824081: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:49.941767: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.056461: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.179133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.296818: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.427468: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.531759: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.643460: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.758454: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:50.870677: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.010097: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.132768: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.237809: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.347878: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.487770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.604457: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.714164: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.817872: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:51.947660: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.069335: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.185877: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.287647: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.407744: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.526622: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.632339: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.741048: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.870703: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:52.998361: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.134995: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.257731: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.367847: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.484212: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.589929: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.702708: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.817995: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:53.930393: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.058374: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.187691: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.297716: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.449858: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.561099: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.688061: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.805960: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:54.920183: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.045584: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.156801: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.267772: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.397378: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.512070: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.625769: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.751430: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.864371: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:55.977959: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.103624: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.232279: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.387881: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.539477: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.693066: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.819909: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:56.961045: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.080723: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.199407: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.324073: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.443095: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.574741: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.700405: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.825071: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:57.981657: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.108870: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.226556: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.358205: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.497204: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.616884: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.734568: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.849262: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:58.993876: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.122531: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.227884: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.334537: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.470900: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.590581: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.709844: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.817970: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:07:59.932113: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.051793: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.167712: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.279920: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.389066: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.523664: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.633370: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.728138: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.841518: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:00.978619: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.105280: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.218255: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.336253: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.447599: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.564287: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.680974: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.797662: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:01.918036: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.047805: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.167843: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.288135: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.407907: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.530590: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.645283: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.759243: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:02.878445: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.015982: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.139649: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.247764: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.384590: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.540173: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.676809: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.805220: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:03.930067: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.071408: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.205970: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.329674: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.512131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.650758: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.763457: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:04.876156: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.022035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.145703: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.259133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.367899: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.497413: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.606123: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.737074: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.845783: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:05.973442: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:06.081154: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:06.193853: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:08:06.303559: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:31.764845: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 18:09:31.880536: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:31.996522: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.115760: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.235443: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.362104: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.483941: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.609928: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.715159: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.817981: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:32.928630: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.050109: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.162317: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.270520: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.377236: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.487940: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.593658: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.698015: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.813040: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:33.933783: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.053461: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.160429: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.278027: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.392691: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.511436: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.623138: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.808642: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:34.920123: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.031824: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.143073: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.245797: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.363482: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.486279: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.601484: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.706204: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.809926: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:35.917637: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:09:36.036320: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 18:12:22.490785: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:22.629562: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:22.753195: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:22.875867: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:22.994501: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.126148: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.242223: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.356914: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.476593: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.616219: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.717916: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.840065: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:23.975541: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.138106: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.259781: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.377467: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.501893: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.630664: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.757293: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:24.876972: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.009617: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.138273: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.245985: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.357612: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.497456: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.634090: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.751775: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:25.885762: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.005424: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.130098: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.234654: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.338031: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.467112: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.606738: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.722807: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.837906: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:26.957460: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.098762: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.217806: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.331023: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.464369: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.634913: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.766560: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:27.888235: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.018391: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.150039: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.281687: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.415330: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.563466: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.684143: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.803822: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:28.922674: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.058729: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.187685: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.297992: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.427995: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.565669: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.687656: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.805819: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:29.927701: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.060363: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.187845: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.308013: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.437721: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.584979: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.701669: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.820348: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:30.947011: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:31.088630: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 18:12:31.216290: the JSON object must be str, bytes or bytearray, not tuple
+2022-04-30 22:47:26.313334: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:06:03.963217: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:06:04.054882: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.171173: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.272466: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.380434: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.491139: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.613720: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.729409: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.837121: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:04.941841: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.044319: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.159734: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.276043: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.399446: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.506160: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.608885: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.726818: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.834895: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:05.938617: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.042578: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.135104: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.240600: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.347435: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.478085: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.579723: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.686336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.804188: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:06.922871: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.023791: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.140436: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.252354: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.378083: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.479811: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.602623: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.718315: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.827024: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:07.933739: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.037460: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.142182: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.250889: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.361594: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.474294: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.581007: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.696698: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.805408: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:08.905141: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.011855: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.120565: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.243130: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.368629: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.478336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.579040: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.676352: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.791543: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:09.909228: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:10.012950: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:10.104705: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:06:10.197458: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:42.625035: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:22:42.753689: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:42.871375: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:42.991056: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.093053: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.198586: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.309288: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.419992: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.528614: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.641665: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.750376: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.873305: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:43.973334: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.075264: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.179478: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.301202: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.416892: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.538567: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.650268: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.751508: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.877681: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:44.981403: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:45.077147: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:45.173889: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:45.268364: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:22:45.375672: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.297042: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:27:46.398176: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.519918: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.624652: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.728373: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.852080: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:46.974539: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.087749: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.202718: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.312567: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.420785: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.531490: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.635213: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.738482: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.842585: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:47.960465: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.075158: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.190849: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.300555: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.409265: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.515981: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.624687: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.729268: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.871886: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:48.999544: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.104490: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.213369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.318170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.428298: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.560011: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.661738: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.763942: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.867666: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:49.981361: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:50.075109: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:50.171914: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:50.270586: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:27:50.371317: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:58.619784: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:28:58.729489: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:58.833211: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:58.932022: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.036233: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.146797: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.258456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.358573: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.476261: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.596939: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.698360: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.810531: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:28:59.908382: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.047227: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.153942: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.254672: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.354372: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.455615: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:00.557341: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:29:58.085165: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:29:58.208238: Invalid base64-encoded string: number of data characters (21733) cannot be 1 more than a multiple of 4
+2022-04-30 23:39:41.642391: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:39:41.812452: 'NoneType' object has no attribute 'shape'
+2022-04-30 23:40:53.124757: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:40:53.293013: 'NoneType' object has no attribute 'shape'
+2022-04-30 23:42:16.862456: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:42:17.534444: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:42:21.989580: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:42:22.207379: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:42:22.493854: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:42:22.763790: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:22.900426: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.011610: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.115133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.217535: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.335575: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.441370: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.547818: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.668834: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.768657: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.872878: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:23.992057: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.093349: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.211248: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.339747: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.457432: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.580151: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.701825: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.812529: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:24.954151: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.066849: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.183537: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.291248: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.398535: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.516778: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.627035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.734746: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.846448: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:25.989286: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.101986: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.207702: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.288730: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.402280: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.505039: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.632845: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.734304: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.864805: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:26.964538: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.067264: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.154703: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.259913: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.369678: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.486410: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.620097: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.745885: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.853074: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:27.969326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.060256: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.156024: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.276010: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.398569: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.494763: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.608971: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.728651: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.850326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:28.949001: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.044565: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.170508: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.267851: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.408843: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.542487: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.649819: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.773109: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.863586: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:29.976753: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.079478: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.180209: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.277409: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.391186: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.500541: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.611646: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.710990: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.831587: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:30.934868: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.060274: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.167583: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.269192: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.378691: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.523428: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.627149: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.726883: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.824622: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:31.928344: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.027080: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.125816: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.228543: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.327866: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.423610: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.519354: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:42:32.621082: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:03.850686: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:04.002290: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:04.136524: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.241673: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.337154: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.447183: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.554085: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.670383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.774105: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.883813: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:04.975998: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.096539: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.216186: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.324572: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.419480: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.553527: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.672307: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.775034: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.878756: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:05.990458: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.107546: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.219681: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.337382: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.436552: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.554166: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.667441: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.787763: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.900256: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:06.990160: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.089196: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.195456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.296994: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.417478: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.508645: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.616296: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.729992: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.838701: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:07.941955: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.044838: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.152249: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.251840: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.368994: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.469878: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.579151: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.685349: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.786115: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.890388: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:08.987212: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.101034: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.219719: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.324438: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.472452: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.610526: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.730866: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.834164: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:09.933144: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.045994: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.151866: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.267936: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.361963: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.481648: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.607547: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.714262: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.827957: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:10.933675: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:11.040391: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:11.144113: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:11.241850: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:11.339590: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:11.437328: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:34.093232: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:34.393376: Invalid base64-encoded string: number of data characters (20389) cannot be 1 more than a multiple of 4
+2022-04-30 23:43:47.217478: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:47.454185: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:47.681279: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:47.928149: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:48.205806: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:48.520231: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:48.828401: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:49.157982: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:56.089939: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:56.399346: Invalid base64-encoded string: number of data characters (60069) cannot be 1 more than a multiple of 4
+2022-04-30 23:43:56.744456: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:57.038721: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:57.373892: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:57.689074: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:43:57.995286: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.120131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.243347: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.356790: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.455626: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.595329: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.716006: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.823718: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:58.923451: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.023308: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.134117: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.237216: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.358506: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.466293: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.565128: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.662769: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.765551: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.866890: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:43:59.968642: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.092150: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.207680: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.312561: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.415688: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.513706: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.639208: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.741031: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.861817: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:00.963065: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.064522: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.168463: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.270419: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.395492: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.480991: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.597454: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.713145: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.824846: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:01.919959: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.043676: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.156373: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.262091: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.375286: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.489462: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.622051: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.728891: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.843793: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:02.959824: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.076054: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.195747: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.309451: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.418114: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.519076: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.610075: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.785226: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:03.912885: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.019599: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.133603: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.231174: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.340921: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.437744: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.565308: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.673018: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.789707: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.887552: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:04.997333: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.131135: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.228921: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.325389: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.441882: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.538623: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.646336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.747164: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.843469: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:05.939843: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.035978: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.147853: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.282162: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.382387: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.499017: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.603093: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.700339: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.849053: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:06.955768: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:07.051513: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:07.149251: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:07.247633: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:07.347365: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:44:07.442113: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:27.275424: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:48:27.384672: Invalid base64-encoded string: number of data characters (21605) cannot be 1 more than a multiple of 4
+2022-04-30 23:48:32.224565: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:48:32.448210: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:48:32.712161: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:48:32.984893: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.126498: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.231954: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.353561: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.452836: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.568705: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.700347: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.814042: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:33.921553: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.024604: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.121644: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.225447: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.330607: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.436973: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.538217: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.647402: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.758254: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.868956: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:34.972883: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.072416: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.169647: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.304936: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.397302: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.501533: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.609991: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.707299: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.815815: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:35.918831: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.035326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.131196: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.235292: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.342127: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.464797: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.553881: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.673437: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.780306: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:36.900362: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.015281: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.121996: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.224005: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.328373: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.417406: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.538221: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.648743: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.769420: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.874140: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:37.967868: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.074298: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.171182: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.269626: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.364830: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.474134: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.577785: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.711839: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.827107: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:38.931170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.033096: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.133712: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.240365: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.344602: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.477542: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.584131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.698977: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.817313: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:39.918146: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.028448: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.138172: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.265674: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.373417: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.477110: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.599139: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.725801: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.850467: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:40.955555: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.072018: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.183838: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.280422: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.418519: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.558763: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.680819: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.807664: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:41.927107: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.080236: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.191734: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.303185: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.416383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.522652: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.616521: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.757146: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.857877: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:42.955616: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:43.051360: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:43.155083: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:43.257810: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:43.355547: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:43.448299: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:50.991794: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.097852: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.199783: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.295946: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.429201: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.535977: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.641509: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.754437: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.863367: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:51.966440: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.096244: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.191989: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.322715: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.415441: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.532983: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.670539: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.775259: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.875988: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:52.970734: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:53.091475: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:53.199187: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:53.297925: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:53.391673: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:48:53.492402: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:47.800106: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:49:47.975490: Invalid base64-encoded string: number of data characters (20581) cannot be 1 more than a multiple of 4
+2022-04-30 23:49:56.869478: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.004539: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.093203: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.209580: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.315847: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.424539: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.533133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.624639: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.764749: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.867383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:57.972795: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.076417: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.172363: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.267577: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.379377: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.498839: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.601561: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.708276: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:49:58.813992: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:50:53.525821: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-04-30 23:50:54.175439: Invalid base64-encoded string: number of data characters (20325) cannot be 1 more than a multiple of 4
+2022-04-30 23:51:00.266011: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.396658: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.513181: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.629581: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.732787: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.853129: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:00.946577: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.049255: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.158579: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.260908: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.381541: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.477348: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.591131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.695852: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.802326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:01.908594: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.027278: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.137369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.237276: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.365515: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.461258: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.563985: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.662720: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.772427: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.879141: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:02.965056: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.103462: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.208606: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.363446: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.463458: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.572587: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.696465: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.802402: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:03.933468: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.032204: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.131938: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.239649: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.357335: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.451085: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:51:04.548825: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:39.804860: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:39.919420: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.017268: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.127466: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.238353: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.345424: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.448929: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.556037: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.657765: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.762485: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.891467: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:40.994140: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.096414: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.215684: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.336000: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.454975: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.565902: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.666777: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.762658: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:41.886780: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.008493: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.114526: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.275454: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.389152: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.502847: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.603577: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.702315: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.798056: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:58:42.936687: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.119421: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.258065: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.354078: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.457888: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.588160: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.704848: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.811564: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:58.907229: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.021001: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.136691: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.252383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.355558: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.463091: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.567977: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.680335: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.784672: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.879301: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-04-30 23:59:59.982934: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.111825: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.234276: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.326171: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.456895: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.569089: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.666269: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.774754: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:00.908430: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.010687: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.116537: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.215843: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.323783: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.451629: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.637876: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.752570: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.864273: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:01.965877: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.081912: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.189900: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.316052: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.426757: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.535466: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.657312: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.771054: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:02.896137: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.007771: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.122836: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.228114: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.337379: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.473424: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.577147: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.685856: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.787583: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.889313: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:03.995029: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:04.102740: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:04.215440: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:23.638379: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:23.745924: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:23.861470: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:23.953689: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.068670: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.161772: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.257543: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.373212: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.474043: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.561142: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.678139: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.777881: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:24.890041: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.001528: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.097600: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.233778: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.339634: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.465813: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.587489: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.711159: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.846798: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:25.946528: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:26.043271: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:26.143002: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:26.245728: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:26.341473: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:00:26.438213: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:03:48.253553: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:48.469600: Invalid base64-encoded string: number of data characters (9189) cannot be 1 more than a multiple of 4
+2022-05-01 00:03:53.799516: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:54.115066: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:54.431873: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:54.747887: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:55.047355: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:55.385967: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:55.717894: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:56.055226: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:56.379985: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:56.695398: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:57.009886: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:57.342027: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:57.671838: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:58.002043: Invalid base64-encoded string: number of data characters (32741) cannot be 1 more than a multiple of 4
+2022-05-01 00:03:58.321943: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:03:58.652049: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:04.908105: Invalid base64-encoded string: number of data characters (1) cannot be 1 more than a multiple of 4
+2022-05-01 00:04:05.520360: Invalid base64-encoded string: number of data characters (9061) cannot be 1 more than a multiple of 4
+2022-05-01 00:04:07.311050: Invalid base64-encoded string: number of data characters (8997) cannot be 1 more than a multiple of 4
+2022-05-01 00:04:22.773609: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:23.057508: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:23.385032: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:23.692907: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:24.007103: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:24.325677: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:24.648948: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:24.982888: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:25.305315: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:25.610595: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:25.929217: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:26.247347: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:26.566649: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:26.879520: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:27.214861: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:04:27.538666: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:14:58.179303: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:14:58.398734: Invalid base64-encoded string: number of data characters (7525) cannot be 1 more than a multiple of 4
+2022-05-01 00:15:23.230549: wrapped C/C++ object of type QLabel has been deleted
+2022-05-01 00:17:02.598513: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:02.734862: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:02.901752: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:03.111551: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:03.357909: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:03.647037: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:03.969676: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:04.311317: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:04.657652: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:05.005082: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:05.329199: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:05.709455: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:06.075095: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:06.406660: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:06.754728: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:06.942226: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.110775: Invalid base64-encoded string: number of data characters (46245) cannot be 1 more than a multiple of 4
+2022-05-01 00:17:07.203528: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.297277: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.391025: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.482781: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.570545: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.658311: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.755053: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:17:07.861767: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:09.720386: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:09.873936: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:10.035904: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:10.198677: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:10.379813: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:10.599997: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:10.887367: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:11.226991: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:11.550839: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:11.928462: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:12.295894: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:12.617017: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:12.952122: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:13.312644: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:13.662552: Invalid base64-encoded string: number of data characters (49125) cannot be 1 more than a multiple of 4
+2022-05-01 00:19:13.992177: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:14.313566: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:14.620532: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:14.919409: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:15.259590: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:15.554773: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:15.878305: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:16.215534: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:16.555511: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:16.840970: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:17.156139: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:17.470305: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:17.796886: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:18.123512: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:18.437471: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:18.770103: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:19.067624: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:19.385026: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:25.852996: Invalid base64-encoded string: number of data characters (1) cannot be 1 more than a multiple of 4
+2022-05-01 00:19:27.350461: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:27.660817: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:28.002689: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:28.292829: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:28.652926: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:28.982815: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:29.308751: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:29.668072: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:19:30.031198: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:02.418731: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:02.570712: Invalid base64-encoded string: number of data characters (29093) cannot be 1 more than a multiple of 4
+2022-05-01 00:20:05.648755: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:05.974381: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:06.288749: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:06.577062: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:06.887192: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:07.200875: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:07.524620: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:07.857278: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:08.159021: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:08.496423: Invalid base64-encoded string: number of data characters (29093) cannot be 1 more than a multiple of 4
+2022-05-01 00:20:08.784503: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:09.104374: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:09.428795: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:09.739834: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:10.064768: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:10.358747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:10.679115: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:10.968821: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:11.269143: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:11.569236: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:11.914211: Invalid base64-encoded string: number of data characters (28965) cannot be 1 more than a multiple of 4
+2022-05-01 00:20:12.235589: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:12.564010: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:12.880407: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:13.173380: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:13.507961: Invalid base64-encoded string: number of data characters (29029) cannot be 1 more than a multiple of 4
+2022-05-01 00:20:13.796108: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:14.118722: Invalid base64-encoded string: number of data characters (28837) cannot be 1 more than a multiple of 4
+2022-05-01 00:20:14.451154: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:14.767104: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:15.155921: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:20:15.494503: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:29:27.713711: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:27.853337: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:27.965458: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.069283: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.173879: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.283454: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.381695: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.509721: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.607063: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.709984: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.846506: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:28.952999: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.071664: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.185129: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.288140: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.385241: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.487979: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.624491: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.742060: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.847283: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:29.952272: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.071326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.174721: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.294381: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.385025: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.511756: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.607502: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.685756: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.812038: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:30.916488: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.017997: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.118354: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.217706: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.335816: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.450027: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.549958: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.650095: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.750008: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.860901: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:31.956437: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.073034: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.170243: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.267705: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.368406: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.472087: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.576527: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.670384: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.767246: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.865647: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:32.953170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.075368: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.187456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.303031: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.407604: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.505943: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.603414: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.710226: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.833382: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:33.931247: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.040860: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.138185: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.238765: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.351181: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.438822: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.551610: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.655252: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.768874: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.882272: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:34.984466: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.084457: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.191700: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.304716: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.403966: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.529875: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.640088: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.737336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.865606: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:35.970409: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.082941: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.190485: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.310748: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.406945: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.527974: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.633317: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.730480: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.864644: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:36.964120: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.061453: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.198821: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.326471: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.428198: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.527933: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.629661: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.733384: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:29:37.840097: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:30:17.443267: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:17.683394: Invalid base64-encoded string: number of data characters (12069) cannot be 1 more than a multiple of 4
+2022-05-01 00:30:32.497503: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:32.796376: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:33.125333: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:33.444409: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:33.776456: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:34.069723: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:34.401012: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:34.725688: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:35.058764: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:35.367723: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:35.700564: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:36.026711: Invalid base64-encoded string: number of data characters (52389) cannot be 1 more than a multiple of 4
+2022-05-01 00:30:36.341841: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:36.643771: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:36.963197: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:37.266618: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:37.589089: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:37.917751: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:38.247658: Invalid base64-encoded string: number of data characters (23909) cannot be 1 more than a multiple of 4
+2022-05-01 00:30:38.557811: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:38.883190: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:44.986230: Invalid base64-encoded string: number of data characters (24677) cannot be 1 more than a multiple of 4
+2022-05-01 00:30:46.236133: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:46.582190: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:46.913414: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:47.237423: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:47.605541: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:47.953729: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:48.330465: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:48.679638: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:30:49.030413: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:31:48.541000: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:48.641937: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:48.749105: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:48.867164: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:48.963100: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.073781: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.192168: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.290024: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.399316: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.495285: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.631714: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.732228: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.823195: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:49.944583: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.042662: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.146112: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.243909: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.344993: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.440755: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.555224: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.657318: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.784363: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.881750: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:50.994979: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.110725: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.215471: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.328381: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.428050: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.553675: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.653833: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.769676: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.875207: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:51.975417: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.090663: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.188327: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.284385: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.378569: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.494770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.600574: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.720981: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.818147: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:52.920556: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.021316: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.162679: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.256493: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.376827: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.490659: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.597419: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.692431: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.791055: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:53.895658: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.001666: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.116708: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.222545: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.330380: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.450641: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.547326: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.664633: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.762401: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.858521: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:54.992066: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.083293: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.202699: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.304951: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.410396: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.513390: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.620969: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.750142: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.841558: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:55.938307: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.051788: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.151293: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.257282: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.354314: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.436706: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.549162: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.631154: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.752249: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.854193: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:56.965303: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.091037: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.202354: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.302595: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.426264: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.527792: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.656170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.767851: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.880084: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:57.986032: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.115595: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.213517: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.347133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.460830: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.560565: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.667278: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.765015: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.865746: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:31:58.962488: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:05.461288: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:05.571863: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:05.672301: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:05.787508: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:05.920279: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.019686: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.132349: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.235033: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.342440: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.446604: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.568456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.678281: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.776549: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:06.911257: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.034389: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.138568: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.246115: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.363430: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.450833: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.573977: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.669719: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.766461: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.863203: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:07.961938: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:08.066660: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:32:08.164397: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-01 00:37:09.800072: wrapped C/C++ object of type QLabel has been deleted
+2022-05-01 00:40:05.379498: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:05.529059: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:05.730647: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:05.966405: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:06.276461: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:06.590544: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:06.962611: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:07.324995: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:40:07.656181: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:42:04.531043: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:42:05.052397: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:42:06.606346: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:42:07.307966: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:41.375092: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:42.161921: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:42.392191: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:42.875168: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:43.121929: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:43.984003: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:44.563148: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:44.874247: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:45.120654: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:45.651473: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:45.979861: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:46.310322: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:46.570159: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:47.016281: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:47.389933: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:48.074100: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:48.517814: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:48.792325: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:49.050967: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:49.705057: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:50.364803: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:50.609139: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:51.571121: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:51.924457: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:52.156546: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:52.378880: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:53.496749: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:53.940634: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:54.160773: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:55.024764: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:55.586788: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:56.094389: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 00:43:56.489974: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:16.886000: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:23.711127: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:33.273050: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:42.266829: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 15:43:44.062359: wrapped C/C++ object of type QLabel has been deleted
+2022-05-01 15:44:37.638922: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:42:41.944097: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:42:54.671053: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:07.707178: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:09.207211: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:09.618306: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:14.714879: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:17.956047: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:18.409885: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:19.433900: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.141121: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.767050: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:20.941713: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:21.556985: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:22.983908: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:23.518479: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.246534: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.384551: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:24.665246: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:25.648858: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:25.957783: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.616925: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.748720: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:26.879932: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:27.875863: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:28.155117: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.016538: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.162794: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.588308: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:29.915726: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:30.633779: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:31.014761: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:32.633631: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:33.995989: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:35.341994: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:36.444107: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:36.902967: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:37.693794: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:37.986975: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:38.466693: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:39.605908: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:40.542195: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.093111: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.733720: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.860664: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:41.999295: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:42.912576: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:44.404801: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:45.475274: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 22:43:46.192358: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:50:39.359620: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:51:29.463375: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:53:03.865141: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:56:20.616659: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:58:09.676811: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:58:30.908644: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-01 23:59:55.949396: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:00:13.462788: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:01:04.175798: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:02:12.091594: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:03:35.558747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:05:21.084391: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:05:43.724079: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:20.586029: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:38.334559: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:06:42.413153: wrapped C/C++ object of type QLabel has been deleted
+2022-05-02 00:07:09.646564: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:09:37.402700: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:11:12.319928: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:11:34.686665: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:12:19.515089: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:12:51.171319: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:13:07.762747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:13:28.722326: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:14:14.904346: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.010802: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.139950: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.262257: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.363157: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.491332: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.588218: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.716635: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.846659: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:15.944662: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.041582: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.169924: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.265958: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.378684: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.488035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.597383: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.694274: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.790591: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:16.902431: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.015131: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.111255: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.210949: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.308044: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.420540: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.517453: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.629911: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.739260: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:17.891976: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.007666: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.116375: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.226229: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.347298: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.471730: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.579441: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.679174: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.792870: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:18.903573: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:19.003306: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:33.961348: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.057733: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.186166: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.296006: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.424035: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.521027: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.617967: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.715360: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.827979: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:34.924837: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.037170: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.136207: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.233449: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.330680: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.445133: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.542254: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.655456: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.752308: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.879438: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:35.988788: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.087401: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.185960: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.283474: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.380624: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.489975: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.599321: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.696189: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.792204: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:36.904743: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.082572: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.187292: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.283036: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.393740: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.496467: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.602183: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:14:37.700921: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.153770: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.280765: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.418661: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.552508: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.682633: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.789387: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:03.933141: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.047946: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.160450: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.273369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.386041: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.515546: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.629689: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.758369: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.870929: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:04.983480: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.111507: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.223975: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.336563: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.481323: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.609649: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.722336: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.850350: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:05.963111: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.091287: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.203773: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.347421: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.475609: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.604136: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.732232: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.844650: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:06.988363: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.116771: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.268378: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.410000: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.546634: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.673297: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.801951: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:07.926618: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.045301: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.160637: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:16:08.304482: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-05-02 00:17:28.681883: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:28.845067: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.087181: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:29.230493: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.342420: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:29.446143: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:31.459746: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:31.558135: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:32.236395: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:32.341534: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:17:38.669465: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:17:38.759053: Expecting value: line 1 column 1 (char 0)
+2022-05-02 00:18:31.392491: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:18:41.533746: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:20:59.106999: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:21:47.952870: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.095487: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.219834: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.358133: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.463614: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.561070: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.658925: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.770823: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.901104: 'str' object has no attribute 'decode'
+2022-05-02 00:21:48.999840: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.104563: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.207209: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.308309: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.406389: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.519564: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.632438: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.730082: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.842624: 'str' object has no attribute 'decode'
+2022-05-02 00:21:49.940621: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.061480: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.161384: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.280669: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.392910: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.486946: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.580947: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.693323: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.802964: 'str' object has no attribute 'decode'
+2022-05-02 00:21:50.900148: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.027821: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.148295: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.264984: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.399347: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.503071: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.618355: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.738256: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.864051: 'str' object has no attribute 'decode'
+2022-05-02 00:21:51.972760: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.105406: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.205140: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.323821: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.435523: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.530269: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.631996: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.725746: 'str' object has no attribute 'decode'
+2022-05-02 00:21:52.826477: 'str' object has no attribute 'decode'
+2022-05-02 00:21:59.989194: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.104885: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.212596: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.334844: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.455027: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.581433: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.684159: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.767738: 'str' object has no attribute 'decode'
+2022-05-02 00:22:00.890020: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.011928: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.131125: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.234688: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.343606: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.483887: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.590159: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.690092: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.810479: 'str' object has no attribute 'decode'
+2022-05-02 00:22:01.934028: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.073101: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.177822: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.281543: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.380279: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.497970: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.592712: 'str' object has no attribute 'decode'
+2022-05-02 00:22:02.696433: 'str' object has no attribute 'decode'
+2022-05-02 00:23:00.575608: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:23:54.245733: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:24:46.954517: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:24:50.219041: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-02 00:26:02.156481: [WinError 10035] A non-blocking socket operation could not be completed immediately
+>>>>>>> AES_Data_Encryption

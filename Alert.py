@@ -23,7 +23,15 @@ import base64
 from loginUi4 import Ui_Form
 import hashlib
 import webbrowser
+import smtplib, ssl
 # import rsa
+
+
+import json
+from base64 import b64encode,b64decode
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad,unpad
+from Cryptodome.Random import get_random_bytes
 
 # hide = win32gui.GetForegroundWindow()
 # win32gui.ShowWindow(hide , win32con.SW_HIDE)
@@ -368,13 +376,35 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.spinBox_mute.setEnabled(False)
             self.label_3.setEnabled(False)
             
+    email_value = 0
+    email_date = None        
+            
+            
     def play_sound(self):
         
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
+        port = 465  # For SSL
+        smtp_server = "smtp.gmail.com"
+        sender_email = "ahh018@usal.edu.lb"  # Enter your address
+        receiver_email = "fhh036@usal.edu.lb"  # Enter receiver address
+        password = '@5564576239@Aa'
+        message = """\
+        A Movement was Detected"""
+        context = ssl.create_default_context()
+        
         # t=0
         while True:
+            
             if self.sound_value == 1:
+                
+                if self.email_value == 0:
+                    self.email_date=dt.now()
+                    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+                        server.login(sender_email, password)
+                        server.sendmail(sender_email, receiver_email, message)
+                    print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
+                self.email_value = 1    
                 if self.checkBox_pause.isChecked() == True:
                     
                     if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=self.spinBox_mute.value()):
@@ -388,6 +418,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 self.label.setStyleSheet('background-color:red')
                 time.sleep(1)
             time.sleep(2)
+            try:
+                if dt.now() > self.email_date+pd.DateOffset(minutes=5):
+                    self.email_value=0
+            except:
+                pass
             
             
     def thread_play_alert(self):
@@ -458,19 +493,48 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     # r_img = cv2.imdecode(receive_data, cv2.IMREAD_COLOR)
                     # cv2.putText(r_img, "Live", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
                     # print("Received from server"+ str(r_img))
-                    packet,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
-                    data = base64.b64decode(packet,' /')
-                    npdata = np.frombuffer(data,dtype=np.uint8)
-                    frame = cv2.imdecode(npdata,cv2.IMREAD_COLOR)
+                    # packet,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
+                    # print("This packet: "+str(packet[:50]))
+                    # data = base64.b64decode(packet,' /')
+                    # npdata = np.frombuffer(data,dtype=np.uint8)
+                    # frame = cv2.imdecode(npdata,cv2.IMREAD_COLOR)
+                    # first_frame=frame
                     
-                    frame = imutils.resize(frame ,height = 480, width = 640)
-                    frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
-                    self.label_img.setPixmap(QPixmap.fromImage(frame))
+                    # frame = imutils.resize(frame ,height = 480, width = 640)
+                    # frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
+                    # self.label_img.setPixmap(QPixmap.fromImage(frame))
                     
                     
                     # try:
                     msgFromServer_2= UDPClientSocket.recvfrom(BUFF_SIZE)
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
+                    
+                    result=UDPClientSocket.recvfrom(BUFF_SIZE)
+                    # print("This result "+str(result[:50]))
+                    result=result[0].decode()
+                    # print("result is: "+str(result))
+                    key=b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
+                    try:
+                        b64 = json.loads(result)
+                        iv = b64decode(b64['iv'])
+                        ct = b64decode(b64['ciphertext'])
+                        cipher = AES.new(key, AES.MODE_CBC, iv)
+                        # pt = unpad(cipher.decrypt(ct), AES.block_size)
+                        decrypted_data = unpad(cipher.decrypt(ct), AES.block_size)
+                        # decrypted_data=decrypted_data.decode()
+                        # print("The message was: ", decrypted_data)
+                        decrypted_data_2 = base64.b64decode(decrypted_data,' /')
+                        npdata_2 = np.frombuffer(decrypted_data_2,dtype=np.uint8)
+                        frame_2 = cv2.imdecode(npdata_2,cv2.IMREAD_COLOR)
+                        frame_2 = imutils.resize(frame_2 ,height = 480, width = 640)
+                        frame_2 = QImage(frame_2, frame_2.shape[1],frame_2.shape[0],frame_2.strides[0],QImage.Format_RGB888)
+                        self.label_img.setPixmap(QPixmap.fromImage(frame_2))
+                            # print("original_frame: "+str(first_frame))
+                            # print("second_frame: "+str(frame_2))
+                    except Exception as e:
+                        print("Error is: "+str(e))
+                        continue
+                    
                         
                     # except Exception as e:
                     #     print(e)
@@ -483,7 +547,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     
                     
                     # msg = '0'
-                    print(msgFromServer_2)
+                    # print(msgFromServer_2)
                     self.scan_label.setText('Scanning.'+i*str('.'))
                     
                     time.sleep(0.02)

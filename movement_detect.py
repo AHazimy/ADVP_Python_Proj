@@ -14,6 +14,14 @@ import hashlib
 import sqlite3
 
 
+import json
+from base64 import b64encode,b64decode
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad,unpad
+from Cryptodome.Random import get_random_bytes
+
+
+
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -28,8 +36,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     check=None
     buffer=None
-    
+    img=None
     camValue=0
+    Status=0
     
     def thread_server(self):
         t_server = Thread(target=self.serverUDP, daemon=True)
@@ -81,14 +90,32 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             # self.lcdNumber.display(i)
             # c.close()
             msg,client_addr = Server.recvfrom(BUFF_SIZE)
-            print('GOT connection from ',client_addr)
+            # print('GOT connection from ',client_addr)
             message = base64.b64encode(self.buffer)
-            Server.sendto(message,client_addr)
-            message_2=str(Status).encode('utf-8')
-            print("Status_2 is: "+str(Status))
-            print(message_2)
-            Server.sendto(message_2,client_addr)
+            message_2=str(self.Status).encode('utf-8')
+            
+            
+            # print("Status_2 is: "+str(Status))
+            # print(message_2)
+            # Server.sendto(message_2,client_addr)
             i+=1
+            
+            
+            data = b"Hello World!"
+            # print("Without: "+str(message[50:]))
+            key = b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
+            cipher = AES.new(key, AES.MODE_CBC)
+            ct_bytes = cipher.encrypt(pad(message, AES.block_size))
+            # print("With: "+str(ct_bytes[:-50]))
+            iv =b64encode(cipher.iv).decode('utf-8')
+            ct = b64encode(ct_bytes).decode('utf-8')
+            result = json.dumps({'iv':iv, 'ciphertext':ct})
+            result=result.encode()
+            # print(result)
+            Server.sendto(message_2,client_addr)
+            Server.sendto(result,client_addr)
+            # print("Second sended is: "+str(result))
+            
             time.sleep(0.02)
 
 
@@ -131,8 +158,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.img = frame
             self.check = check
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            global Status
-            Status=0
+            # global Status
+            self.Status=0
             gray = cv2.GaussianBlur(gray, (21,21), 0)
             if first_frame is None:
                 first_frame = gray
@@ -144,17 +171,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             for contour in cnts:
                 if cv2.contourArea(contour) < 20000:
                     continue
-                Status=1
+                self.Status=1
                 (x,y,w,h) = cv2.boundingRect(contour)
                 cv2.rectangle(frame, (x,y), (x+w, y+h), (0,255,0), 3)
-            status_list.append(Status)
+            status_list.append(self.Status)
             status_list=status_list[-2:]
             if status_list[-1]==1 and status_list[-2]==0:
                 times.append(datetime.now())
             if status_list[-1]==0 and status_list[-2]==1:
                 times.append(datetime.now())
             frame  = imutils.resize(frame ,height = 480, width = 640)
-            encoded,self.buffer = cv2.imencode('.jpg',frame,[cv2.IMWRITE_JPEG_QUALITY,80])
+            encoded,self.buffer = cv2.imencode('.jpg',frame,[cv2.IMWRITE_JPEG_QUALITY,50])
             frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
             self.label_img.setPixmap(QPixmap.fromImage(frame))
             # message = base64.b64encode(buffer)
@@ -168,7 +195,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             #         times.append(datetime.now())
             #     break
             time.sleep(0.02)
-            print("status is: "+str(Status))
+            print("status is: "+str(self.Status))
             
             
 
