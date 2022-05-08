@@ -24,6 +24,7 @@ from loginUi4 import Ui_Form
 import hashlib
 import webbrowser
 import smtplib, ssl
+from PIL import Image
 # import rsa
 
 
@@ -386,9 +387,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         configur.read('AlertConfig.ini')
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
-        sender_email = "ahh018@usal.edu.lb"  # Enter your address
-        receiver_email = "fhh036@usal.edu.lb"  # Enter receiver address
-        password = '@5564576239@Aa'
+        sender_email = "hadi.shamas.771@gamil.com"  # Enter your address
+        receiver_email = "ahh018@usal.edu.lb"  # Enter receiver address
+        password = 'zZ@5564576239@Aa'
         message = """\
         A Movement was Detected"""
         context = ssl.create_default_context()
@@ -401,6 +402,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 if self.email_value == 0:
                     self.email_date=dt.now()
                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+                        test_message = Image.fromarray(self.image_to_send)
+                        print("Test messagesssssssssssssssssssssssssssssssssssssss")
+                        print(test_message)
                         server.login(sender_email, password)
                         server.sendmail(sender_email, receiver_email, message)
                     print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
@@ -526,6 +530,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         decrypted_data_2 = base64.b64decode(decrypted_data,' /')
                         npdata_2 = np.frombuffer(decrypted_data_2,dtype=np.uint8)
                         frame_2 = cv2.imdecode(npdata_2,cv2.IMREAD_COLOR)
+                        self.image_to_send = frame_2
                         frame_2 = imutils.resize(frame_2 ,height = 480, width = 640)
                         frame_2 = QImage(frame_2, frame_2.shape[1],frame_2.shape[0],frame_2.strides[0],QImage.Format_RGB888)
                         self.label_img.setPixmap(QPixmap.fromImage(frame_2))

@@ -3489,3 +3489,8 @@
 2022-05-02 00:24:46.954517: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-02 00:24:50.219041: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-02 00:26:02.156481: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-08 18:58:19.968086: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-08 18:59:44.470238: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-08 19:00:33.863114: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-08 19:00:58.552047: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-08 19:01:40.681230: [WinError 10035] A non-blocking socket operation could not be completed immediately
