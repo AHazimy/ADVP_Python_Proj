@@ -387,7 +387,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         configur.read('AlertConfig.ini')
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
-        sender_email = "hadi.shamas.771@gamil.com"  # Enter your address
+        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
         receiver_email = "ahh018@usal.edu.lb"  # Enter receiver address
         password = 'zZ@5564576239@Aa'
         message = """\
@@ -512,6 +512,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     # try:
                     msgFromServer_2= UDPClientSocket.recvfrom(BUFF_SIZE)
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
+                    print(msgFromServer_2)
                     
                     result=UDPClientSocket.recvfrom(BUFF_SIZE)
                     # print("This result "+str(result[:50]))
