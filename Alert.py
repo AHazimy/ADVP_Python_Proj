@@ -391,8 +391,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
         receiver_email = "ahh018@usal.edu.lb"  # Enter receiver address
         password = 'zZ@5564576239@Aa'
-        message= """\
-        A Movement was Detected"""
+        message= """From: From Person <from@fromdomain.com>
+                    To: To Person <to@todomain.com>
+                    Subject: Movement detected
+
+        A movement was detected at {}.""".format(str(dt.now()))
         context = ssl.create_default_context()
         
         # t=0
