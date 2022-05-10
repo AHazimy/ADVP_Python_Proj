@@ -214,6 +214,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # self.load_db('StartStop_conn', rec_conn_df)
         # self.load_db('StartStop_det', rec_det_df)
         # self.load_db('StartStop_run', rec_run_df)
+        self.themes()
         
         self.label_img.setPixmap(QPixmap("images/H.png"))
         
@@ -672,6 +673,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         t1=Thread(target=self.start_loop, daemon=True)
         t1.start()
 
+    def themes(self):
+        self.setStyleSheet(open('DarkStyle.css').read())
 
 # app = QApplication([])
 # window = MainWindow()

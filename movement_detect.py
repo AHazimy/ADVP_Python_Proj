@@ -32,6 +32,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.btn_server.clicked.connect(self.thread_server)
         self.btn_apply_hash.clicked.connect(self.apply_hash)
         self.btn_export_hash.clicked.connect(self.add_hashed_to_db)
+        
 
     
     check=None
@@ -56,9 +57,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         port = 9999
         socket_address = (host_ip,port)
         Server.bind(socket_address)
+        self.statusBar().showMessage("Running UDP Server...")
         print('Listening at:',socket_address)
         i=0
         while True:
+            # self.statusBar().showMessage("Server is UP")
             # img = cv2.flip(np.float32(self.img), 1)
             # img=np.array(self.img)
             # print("Image creating")
@@ -90,6 +93,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             # self.lcdNumber.display(i)
             # c.close()
             msg,client_addr = Server.recvfrom(BUFF_SIZE)
+            self.statusBar().showMessage("Connected to "+str(BUFF_SIZE))
             # print('GOT connection from ',client_addr)
             message = base64.b64encode(self.buffer)
             message_2=str(self.Status).encode('utf-8')
@@ -115,7 +119,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             Server.sendto(message_2,client_addr)
             Server.sendto(result,client_addr)
             # print("Second sended is: "+str(result))
-            
+            self.statusBar().showMessage("Server is UP")
             time.sleep(0.02)
 
 
@@ -125,6 +129,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def loadImage(self):
         # QApplication.processEvents()
         first_frame = None
+        self.statusBar().showMessage("Opening Camera...")
         # BUFF_SIZE = 65536
         # Server=socket.socket( socket.AF_INET , socket.SOCK_DGRAM )
         # Server.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
@@ -145,7 +150,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
    
 
-
+        self.statusBar().showMessage("Camera is opened")
         while self.camValue != 1: 
             check, frame = video.read()  
             # msg,client_addr = Server.recvfrom(BUFF_SIZE)
