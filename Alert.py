@@ -214,7 +214,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # self.load_db('StartStop_conn', rec_conn_df)
         # self.load_db('StartStop_det', rec_det_df)
         # self.load_db('StartStop_run', rec_run_df)
-        self.themes()
+        self.checkBox_theme.toggled.connect(self.themes)
+        self.load_theme()
+        
         
         self.label_img.setPixmap(QPixmap("images/H.png"))
         
@@ -673,7 +675,36 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         t1=Thread(target=self.start_loop, daemon=True)
         t1.start()
 
+    def load_theme(self):
+        configur = ConfigParser()
+        configur.read('AlertConfig.ini')
+        theme = configur.get('THEME','DARK')
+        print(theme)
+        if theme == 'True':
+            print("theme is true")
+            self.checkBox_theme.setChecked(True)
+        else:
+            print("theme is false")
+            self.checkBox_theme.setChecked(False)
+
     def themes(self):
+        configur = ConfigParser()
+        
+        if self.checkBox_theme.isChecked() == False:
+            configur.read('AlertConfig.ini')
+            configur.set('THEME','DARK','False')
+            with open('AlertConfig.ini','w') as myfile:
+                configur.write(myfile)
+            self.setStyleSheet("""""")
+        elif self.checkBox_theme.isChecked() == True:
+            configur.read('AlertConfig.ini')
+            configur.set('THEME','DARK','True')
+            with open('AlertConfig.ini','w') as myfile:
+                configur.write(myfile)
+            self.Dark_themes()
+
+
+    def Dark_themes(self):
         self.setStyleSheet(open('DarkStyle.css').read())
 
 # app = QApplication([])
