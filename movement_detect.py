@@ -12,8 +12,6 @@ import numpy as np
 import base64
 import hashlib
 import sqlite3
-
-
 import json
 from base64 import b64encode,b64decode
 from Cryptodome.Cipher import AES
@@ -59,6 +57,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         Server.bind(socket_address)
         self.statusBar().showMessage("Running UDP Server...")
         print('Listening at:',socket_address)
+        self.btn_server.setEnabled(False)
         i=0
         while True:
             # self.statusBar().showMessage("Server is UP")
@@ -151,6 +150,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
    
 
         self.statusBar().showMessage("Camera is opened")
+        self.btn_server.setEnabled(True)
+        self.btn_play.setEnabled(False)
         while self.camValue != 1: 
             check, frame = video.read()  
             # msg,client_addr = Server.recvfrom(BUFF_SIZE)

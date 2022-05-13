@@ -43,6 +43,19 @@ class Ui_Form(object):
 "    color:rgba(115, 128, 142, 255);\n"
 "}")
         self.widget.setObjectName("widget")
+        self.lineEdit = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit.setGeometry(QtCore.QRect(94, 156, 251, 40))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.lineEdit.setFont(font)
+        self.lineEdit.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+"border-bottom:2px solid rgba(255, 255, 255, 255);\n"
+"color:rgba(255, 255, 255, 230);\n"
+"padding-bottom:7px;")
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
+        self.pushButton = QtWidgets.QPushButton(self.widget)
         self.label = QtWidgets.QLabel(self.widget)
         self.label.setGeometry(QtCore.QRect(30, 69, 300, 361))
         self.label.setStyleSheet("background-image: url(:/newPrefix/bianry_eye.png);\n"
@@ -75,7 +88,7 @@ class Ui_Form(object):
         self.label_4.setFont(font)
         self.label_4.setStyleSheet("color:rgba(255, 255, 255, 210);")
         self.label_4.setObjectName("label_4")
-        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
+        
         self.lineEdit_2.setGeometry(QtCore.QRect(94, 221, 251, 40))
         font = QtGui.QFont()
         font.setPointSize(14)
@@ -87,7 +100,7 @@ class Ui_Form(object):
 "padding-bottom:7px;")
         self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lineEdit_2.setObjectName("lineEdit_2")
-        self.pushButton = QtWidgets.QPushButton(self.widget)
+        
         self.pushButton.setGeometry(QtCore.QRect(94, 290, 251, 40))
         font = QtGui.QFont()
         font.setPointSize(12)
@@ -96,17 +109,7 @@ class Ui_Form(object):
         self.pushButton.setFont(font)
         self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setObjectName("pushButton")
-        self.lineEdit = QtWidgets.QLineEdit(self.widget)
-        self.lineEdit.setGeometry(QtCore.QRect(94, 156, 251, 40))
-        font = QtGui.QFont()
-        font.setPointSize(14)
-        self.lineEdit.setFont(font)
-        self.lineEdit.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
-"border:none;\n"
-"border-bottom:2px solid rgba(255, 255, 255, 255);\n"
-"color:rgba(255, 255, 255, 230);\n"
-"padding-bottom:7px;")
-        self.lineEdit.setObjectName("lineEdit")
+        
         self.horizontalLayoutWidget = QtWidgets.QWidget(self.widget)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(150, 390, 141, 41))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
@@ -224,7 +227,7 @@ class Ui_Form(object):
         self.label_4.setText(_translate("Form", "Log In"))
         self.lineEdit_2.setPlaceholderText(_translate("Form", "  Password"))
         self.pushButton.setText(_translate("Form", "L o g  I n"))
-        self.lineEdit.setPlaceholderText(_translate("Form", "  User Name"))
+        self.lineEdit.setPlaceholderText(_translate("Form", "  Username"))
         self.pushButton_fb.setText(_translate("Form", "E"))
         self.pushButton_twitt.setText(_translate("Form", "D"))
         self.pushButton_yt.setText(_translate("Form", "M"))

@@ -53,6 +53,7 @@ class Ui_MainWindow(object):
         self.btn_play.setObjectName("btn_play")
         self.verticalLayout.addWidget(self.btn_play)
         self.btn_server = QtWidgets.QPushButton(self.tab)
+        self.btn_server.setEnabled(False)
         self.btn_server.setMinimumSize(QtCore.QSize(0, 35))
         font = QtGui.QFont()
         font.setPointSize(13)

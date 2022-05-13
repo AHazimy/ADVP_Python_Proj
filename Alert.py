@@ -226,6 +226,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.checkBox_pause.toggled.connect(self.checkable_pause)
         self.start_run()
         self.btn_sql.clicked.connect(self.show_table)
+        # self.lineEdit.setPlaceholderText('example@gmail.com')
+        self.checkBox_email.toggled.connect(self.activate_emailBox)
        
     global rec_conn_df
     global rec_det_df
@@ -392,7 +394,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
         sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
-        receiver_email = "ahh018@usal.edu.lb"  # Enter receiver address
+        receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
         password = 'zZ@5564576239@Aa'
         message= """From: From Person <from@fromdomain.com>
                     To: To Person <to@todomain.com>
@@ -407,14 +409,20 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             if self.sound_value == 1:
                 
                 if self.email_value == 0:
-                    self.email_date=dt.now()
-                    test_message = Image.fromarray(self.image_to_send)
-                    print("Test messagesssssssssssssssssssssssssssssssssssssss")
-                    print(test_message)
-                    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-                        server.login(sender_email, password)
-                        server.sendmail(sender_email, receiver_email, message)
-                    print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
+                    if self.first_time_after_detection != None and dt.now() < self.first_time_after_detection+pd.DateOffset(minutes=60):
+                        if self.checkBox_email.isChecked() == True:
+                            try:
+                                self.email_date=dt.now()
+                                # test_message = Image.fromarray(self.image_to_send)
+                                print("Test messagesssssssssssssssssssssssssssssssssssssss")
+                                # print(test_message)
+                                with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+                                    server.login(sender_email, password)
+                                    server.sendmail(sender_email, receiver_email, message)
+                                print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
+                            except Exception as e:
+                                print(e)
+                                pass
                 self.email_value = 1    
                 if self.checkBox_pause.isChecked() == True:
                     
@@ -706,6 +714,21 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def Dark_themes(self):
         self.setStyleSheet(open('DarkStyle.css').read())
+        
+    def activate_emailBox(self):
+        if self.checkBox_email.isChecked() == True:
+            self.lineEdit.setEnabled(True)
+            self.label_4.setEnabled(True)
+            self.label_6.setEnabled(True)
+            self.spinBox_mute_2.setEnabled(True)
+            self.label_5.setEnabled(True)
+        else:
+            self.lineEdit.setEnabled(False)
+            self.label_4.setEnabled(False)
+            self.label_6.setEnabled(False)
+            self.spinBox_mute_2.setEnabled(False)
+            self.label_5.setEnabled(False)
+            
 
 # app = QApplication([])
 # window = MainWindow()
