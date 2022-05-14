@@ -388,14 +388,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
             
     def play_sound(self):
-        
+        send_email_first_time=0
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
-        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
+        sender_email = "hzsurveillancesystem@gmail.com"  # Enter your address
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
-        password = 'zZ@5564576239@Aa'
+        password = '$f:5564576239:f@'
         message= """From: From Person <from@fromdomain.com>
                     To: To Person <to@todomain.com>
                     Subject: Movement detected
@@ -408,8 +408,23 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
             if self.sound_value == 1:
                 
-                if self.email_value == 0:
-                    if self.first_time_after_detection != None and dt.now() < self.first_time_after_detection+pd.DateOffset(minutes=60):
+                if self.email_value == 0 and self.checkBox_email.isChecked() == True:
+                    if send_email_first_time == 0:
+                        try:
+                            self.email_date=dt.now()
+                            # test_message = Image.fromarray(self.image_to_send)
+                            print("Test messagesssssssssssssssssssssssssssssssssssssss")
+                            # print(test_message)
+                            with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+                                server.login(sender_email, password)
+                                server.sendmail(sender_email, receiver_email, message)
+                            send_email_first_time=1
+                            print("EMail sendeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
+                        except Exception as e:
+                            print(e)
+                            pass
+                        
+                    if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(1)):
                         if self.checkBox_email.isChecked() == True:
                             try:
                                 self.email_date=dt.now()
@@ -436,9 +451,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 time.sleep(1)
                 self.label.setStyleSheet('background-color:red')
                 time.sleep(1)
-            time.sleep(2)
+            time.sleep(1)
             try:
-                if dt.now() > self.email_date+pd.DateOffset(minutes=5):
+                if dt.now() > self.email_date+pd.DateOffset(minutes=1):
                     self.email_value=0
             except:
                 pass
@@ -587,7 +602,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                             self.sound_value = 1
                             self.first_time_after_detection = dt.now()
                             # self.thread_play_alert()
-                    elif str(msgFromServer_2) != "1":
+                    elif str(msgFromServer_2) != "0":
                         self.scan_label.setText('Scanning.'+i*str('.'))
                         if self.rec_det_value == 1:
                             self.rec_det_value = 0
@@ -717,17 +732,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         
     def activate_emailBox(self):
         if self.checkBox_email.isChecked() == True:
-            self.lineEdit.setEnabled(True)
+            #self.lineEdit.setEnabled(True)
             self.label_4.setEnabled(True)
-            self.label_6.setEnabled(True)
-            self.spinBox_mute_2.setEnabled(True)
             self.label_5.setEnabled(True)
+            #self.spinBox_mute_2.setEnabled(True)
+            #self.label_5.setEnabled(True)
         else:
-            self.lineEdit.setEnabled(False)
+            #self.lineEdit.setEnabled(False)
             self.label_4.setEnabled(False)
-            self.label_6.setEnabled(False)
-            self.spinBox_mute_2.setEnabled(False)
             self.label_5.setEnabled(False)
+            # self.spinBox_mute_2.setEnabled(False)
+            #self.label_5.setEnabled(False)
             
 
 # app = QApplication([])
