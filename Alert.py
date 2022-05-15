@@ -393,9 +393,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         configur.read('AlertConfig.ini')
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
-        sender_email = "hzsurveillancesystem@gmail.com"  # Enter your address
+        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
-        password = '$f:5564576239:f@'
+        password = 'zZ@5564576239@Aa'
         message= """From: From Person <from@fromdomain.com>
                     To: To Person <to@todomain.com>
                     Subject: Movement detected

@@ -8118,3 +8118,14 @@
 2022-05-14 22:45:27.562936: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-14 22:50:49.892395: [WinError 10035] A non-blocking socket operation could not be completed immediately
 2022-05-14 22:52:35.557956: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 22:55:10.141640: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 22:55:52.452388: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:18:19.064223: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:18:56.412854: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:21:24.366084: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:21:28.841348: wrapped C/C++ object of type QLabel has been deleted
+2022-05-14 23:27:21.360012: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:28:32.333260: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:29:40.617588: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:29:40.787040: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-05-14 23:31:58.094907: [WinError 10035] A non-blocking socket operation could not be completed immediately
