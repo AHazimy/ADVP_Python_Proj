@@ -1,4 +1,3 @@
-# from lib2to3.pgen2.pgen import DFAState
 from PyQt5.QtWidgets import*
 from PyQt5.QtCore import*
 from PyQt5.QtGui import*
@@ -12,7 +11,6 @@ from threading import *
 from datetime import datetime as dt
 import socket
 from configparser import ConfigParser
-# import win32gui, win32con
 import subprocess
 import sqlite3
 import plotly.express as px
@@ -25,14 +23,12 @@ import hashlib
 import webbrowser
 import smtplib, ssl
 from PIL import Image
-# import rsa
-
-
 import json
 from base64 import b64encode,b64decode
 from Cryptodome.Cipher import AES
 from Cryptodome.Util.Padding import pad,unpad
 from Cryptodome.Random import get_random_bytes
+# import win32gui, win32con
 
 # hide = win32gui.GetForegroundWindow()
 # win32gui.ShowWindow(hide , win32con.SW_HIDE)
@@ -63,13 +59,9 @@ class Login(QDialog, Ui_Form):
         conn.commit()
         cur.execute("SELECT Name FROM Ident")
         users=str(cur.fetchall()).replace("[('", '').replace("',)]","")
-        # users_key = users+"Y@313:MaHdI313"
-        # users_hashed = hashlib.md5(users_key.encode('utf-8')).hexdigest()
         print(users)
         cur.execute("SELECT Password FROM Ident")
         passw=str(cur.fetchall()).replace("[('", '').replace("',)]","")
-        # passw_key = passw+"Y@313:MaHdI313"
-        # passw_hashed = hashlib.md5(passw_key.encode('utf-8')).hexdigest()
         print(passw)
 
         ##HASHING FOR INPUT##
@@ -99,16 +91,6 @@ class Login(QDialog, Ui_Form):
         elif event.key() == Qt.Key_Return:
             self.handleLogin()
             
-
-
-
-
-# df_conn = pd.DataFrame(columns=['Start_Time', 'Stop_Time'])
-
-# df_det = pd.DataFrame(columns=['Start_Time', 'Stop_Time'])
-
-# df_run = pd.DataFrame(columns=['Start_Time', 'Stop_Time'])
-
 class Table(QDialog):
     def __init__(self, parent=None):
         super(Table, self).__init__(parent)       
@@ -464,13 +446,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         t.start()
 
     def start_loop(self):  
-        
-        # self.comboBox.setEnabled(False)
-        # self.play_btn.setEnabled(False)
+
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         self.date_list.clear()      
-        # self.init_value=0
+
         self.date_label.setText('')
         self.label.setStyleSheet('background-color:rgb(0, 255, 0)')
         self.label.setText(configur.get('DETECTION','NO-DETECT'))
@@ -478,19 +458,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         connected = True
         BUFF_SIZE = 65536
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        # UDPClientSocket.settimeout(0.02)
+
         UDPClientSocket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
         UDPClientSocket.setblocking(False)
         host_ip = configur.get('SETTING','IP')
         port=9999
         serverAddressPort= (configur.get('SETTING','IP'), 1500)
         message = b'Hello'
-        
-        
-        
-        
-        # bytesToSend = str.encode(msgFromClient)
-        
+
         PINGSTATUS = 0
         i=0
         j=0
@@ -504,59 +479,38 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             if PINGSTATUS == 1:
                 if self.rec_conn_value == 0:
                     self.rec_conn_value = 1
-                    # rec_conn_df.insert(loc=0, column="Start_Time", value=dt.now())
                     self.temp_start_rec = dt.now()
-                # if self.init_value != 1:
+
                 try:
                     
                     UDPClientSocket.sendto(message,(host_ip,port))
                     print(configur.get('SETTING','IP'))
-                    # self.scan_label.setText('Sending to server...')
-                    # UDPClientSocket.sendto(bytesToSend, serverAddressPort)
-                    
+
                     print(BUFF_SIZE)
                     print("Creating socket")
                     
                     print("Sending to server again")
                     
                     print("Receiving from server")
-                    # msgFromServer,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
-                    # data = base64.b64decode(msgFromServer,' /')
+
                     print("Received MMM from server")
-                    # receive_data = np.frombuffer(data, dtype='uint8')
-                    # r_img = cv2.imdecode(receive_data, cv2.IMREAD_COLOR)
-                    # cv2.putText(r_img, "Live", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
-                    # print("Received from server"+ str(r_img))
-                    # packet,_ = UDPClientSocket.recvfrom(BUFF_SIZE)
-                    # print("This packet: "+str(packet[:50]))
-                    # data = base64.b64decode(packet,' /')
-                    # npdata = np.frombuffer(data,dtype=np.uint8)
-                    # frame = cv2.imdecode(npdata,cv2.IMREAD_COLOR)
-                    # first_frame=frame
-                    
-                    # frame = imutils.resize(frame ,height = 480, width = 640)
-                    # frame = QImage(frame, frame.shape[1],frame.shape[0],frame.strides[0],QImage.Format_RGB888)
-                    # self.label_img.setPixmap(QPixmap.fromImage(frame))
-                    
-                    
-                    # try:
+
                     msgFromServer_2= UDPClientSocket.recvfrom(BUFF_SIZE)
                     msgFromServer_2 = str(msgFromServer_2[0].decode('utf-8'))
                     
                     result=UDPClientSocket.recvfrom(BUFF_SIZE)
-                    # print("This result "+str(result[:50]))
+
                     result=result[0].decode()
-                    # print("result is: "+str(result))
+
                     key=b'\xde\xe2\xd2\x04\x06o{%\x1e\x8e\x93TY: \xab'
                     try:
                         b64 = json.loads(result)
                         iv = b64decode(b64['iv'])
                         ct = b64decode(b64['ciphertext'])
                         cipher = AES.new(key, AES.MODE_CBC, iv)
-                        # pt = unpad(cipher.decrypt(ct), AES.block_size)
+
                         decrypted_data = unpad(cipher.decrypt(ct), AES.block_size)
-                        # decrypted_data=decrypted_data.decode()
-                        # print("The message was: ", decrypted_data)
+
                         decrypted_data_2 = base64.b64decode(decrypted_data,' /')
                         npdata_2 = np.frombuffer(decrypted_data_2,dtype=np.uint8)
                         
@@ -567,27 +521,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         frame_2 = imutils.resize(frame_2 ,height = 480, width = 640)
                         
                         frame_2 = QImage(frame_2, frame_2.shape[1],frame_2.shape[0],frame_2.strides[0],QImage.Format_RGB888)
-                        
+                    
                         self.label_img.setPixmap(QPixmap.fromImage(frame_2))
-                            # print("original_frame: "+str(first_frame))
-                            # print("second_frame: "+str(frame_2))
                     except Exception as e:
                         print("Error is: "+str(e))
                         continue
-                    
-                        
-                    # except Exception as e:
-                    #     print(e)
-                    #     pass
-                   
-                    
-                    
-                    
-                    # msgFromServer_2='0'
-                    
-                    
-                    # msg = '0'
-                    # print(msgFromServer_2)
+
                     self.scan_label.setText('Scanning.'+i*str('.'))
                     
                     time.sleep(0.02)
@@ -601,7 +540,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         if self.sound_value == 0:
                             self.sound_value = 1
                             self.first_time_after_detection = dt.now()
-                            # self.thread_play_alert()
                     elif str(msgFromServer_2) != "0":
                         self.scan_label.setText('Scanning.'+i*str('.'))
                         if self.rec_det_value == 1:
@@ -621,27 +559,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                         myfile.write("\n"+str(dt.now())+": "+str(serror))
                     self.scan_label.setText('Scanning.')
                     time.sleep(0.02)
-                    # continue
-                    # try:
-                    #     self.scan_label.setText('Connection Error')
-                    #     self.label.setText(configur.get('DETECTION','NO-DETECT'))
-                    #     self.scan_label.setText('Creating new UDP socket...')
-                    #     UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-                    #     UDPClientSocket.settimeout(4)
-                    #     self.scan_label.setText('Creation UDP socket complete!')
-                    #     self.scan_label.setText('Reconnecting...')
-                    # except Exception as e:
-                    #     with open('Error.txt', 'a+') as myfile:
-                    #         myfile.write("\n"+str(dt.now())+": "+str(e))
-                    # while not connected:
-                    #     try:
-                    #         UDPClientSocket.sendto(bytesToSend, serverAddressPort)
-                    #         connected = True
-                    #         self.scan_label.setText('Reconnected')
-                    #     except socket.error as e:
-                    #         with open('Error.txt', 'a+') as myfile:
-                    #             myfile.write("\n"+str(dt.now())+": "+str(e))
-                    #         time.sleep(2)
                     continue
                 
             elif PINGSTATUS == 0:
@@ -686,7 +603,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.sound_value = 0
         self.first_time_after_detection = dt.now()
         self.checkBox_pause.setChecked(True)
-        # self.init_value=1   
         self.label.setStyleSheet('background-color:rgb(0, 255, 0)')
         self.label.setText(configur.get('DETECTION','NO-DETECT'))
         self.scan_label.setText('Stopped')
@@ -732,23 +648,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         
     def activate_emailBox(self):
         if self.checkBox_email.isChecked() == True:
-            #self.lineEdit.setEnabled(True)
             self.label_4.setEnabled(True)
             self.label_5.setEnabled(True)
-            #self.spinBox_mute_2.setEnabled(True)
-            #self.label_5.setEnabled(True)
         else:
-            #self.lineEdit.setEnabled(False)
             self.label_4.setEnabled(False)
             self.label_5.setEnabled(False)
-            # self.spinBox_mute_2.setEnabled(False)
-            #self.label_5.setEnabled(False)
-            
 
-# app = QApplication([])
-# window = MainWindow()
-# window.show()
-# app.exec()
 if __name__ == '__main__':
 
     import sys
@@ -759,9 +664,3 @@ if __name__ == '__main__':
         window = MainWindow()
         window.show()
         sys.exit(app.exec_())
-
-
-# print(rec_conn_df)
-# print(rec_det_df)
-# print(rec_run_df)
-
