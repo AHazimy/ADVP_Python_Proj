@@ -41,9 +41,9 @@ class Login(QDialog, Ui_Form):
         self.pushButton_6.clicked.connect(lambda: self.close())
         # self.exit_btn.clicked.connect(self.close)
         self.pushButton_fb.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
-        self.pushButton_twitt.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
-        self.pushButton_yt.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
-        self.pushButton_in.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
+        self.pushButton_twitt.clicked.connect(lambda: webbrowser.open('http://twitter.com//hazimyfatima'))
+        self.pushButton_yt.clicked.connect(lambda: webbrowser.open('http://youtube.com//hazimyfatima'))
+        self.pushButton_in.clicked.connect(lambda: webbrowser.open('http://linkedin.com//in//fatima-hazimy'))
         
     
         
