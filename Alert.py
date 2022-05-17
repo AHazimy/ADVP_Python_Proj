@@ -28,157 +28,159 @@ from base64 import b64encode,b64decode
 from Cryptodome.Cipher import AES
 from Cryptodome.Util.Padding import pad,unpad
 from Cryptodome.Random import get_random_bytes
+from login_class import Login
+from table_db import Table
 # import win32gui, win32con
 
 # hide = win32gui.GetForegroundWindow()
 # win32gui.ShowWindow(hide , win32con.SW_HIDE)
-class Login(QDialog, Ui_Form):
-    def __init__(self, parent=None):
-        super(Login, self).__init__(parent)
-        self.setupUi(self)
-        # self.Title_text()
-        self.pushButton.clicked.connect(self.handleLogin)
-        self.pushButton_6.clicked.connect(lambda: self.close())
-        # self.exit_btn.clicked.connect(self.close)
-        self.pushButton_fb.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
-        self.pushButton_twitt.clicked.connect(lambda: webbrowser.open('http://twitter.com//hazimyfatima'))
-        self.pushButton_yt.clicked.connect(lambda: webbrowser.open('http://youtube.com//hazimyfatima'))
-        self.pushButton_in.clicked.connect(lambda: webbrowser.open('http://linkedin.com//in//fatima-hazimy'))
+# class Login(QDialog, Ui_Form):
+#     def __init__(self, parent=None):
+#         super(Login, self).__init__(parent)
+#         self.setupUi(self)
+#         # self.Title_text()
+#         self.pushButton.clicked.connect(self.handleLogin)
+#         self.pushButton_6.clicked.connect(lambda: self.close())
+#         # self.exit_btn.clicked.connect(self.close)
+#         self.pushButton_fb.clicked.connect(lambda: webbrowser.open('http://facebook.com//hazimyfatima'))
+#         self.pushButton_twitt.clicked.connect(lambda: webbrowser.open('http://twitter.com//hazimyfatima'))
+#         self.pushButton_yt.clicked.connect(lambda: webbrowser.open('http://youtube.com//hazimyfatima'))
+#         self.pushButton_in.clicked.connect(lambda: webbrowser.open('http://linkedin.com//in//fatima-hazimy'))
         
     
         
-    def handleLogin(self):
-        db_files=[]
-        for file in os.listdir("PasswordDB/"):
-            if file.endswith(".db"):
-                db_files.append(file)
-        conn = sqlite3.connect("PasswordDB/"+str(db_files[0]))
-        cur = conn.cursor()
+#     def handleLogin(self):
+#         db_files=[]
+#         for file in os.listdir("PasswordDB/"):
+#             if file.endswith(".db"):
+#                 db_files.append(file)
+#         conn = sqlite3.connect("PasswordDB/"+str(db_files[0]))
+#         cur = conn.cursor()
         
-        cur.execute("CREATE TABLE IF NOT EXISTS Ident(Name VARCHAR(100), Password VARCHAR(100))")
-        conn.commit()
-        cur.execute("SELECT Name FROM Ident")
-        users=str(cur.fetchall()).replace("[('", '').replace("',)]","")
-        print(users)
-        cur.execute("SELECT Password FROM Ident")
-        passw=str(cur.fetchall()).replace("[('", '').replace("',)]","")
-        print(passw)
+#         cur.execute("CREATE TABLE IF NOT EXISTS Ident(Name VARCHAR(100), Password VARCHAR(100))")
+#         conn.commit()
+#         cur.execute("SELECT Name FROM Ident")
+#         users=str(cur.fetchall()).replace("[('", '').replace("',)]","")
+#         print(users)
+#         cur.execute("SELECT Password FROM Ident")
+#         passw=str(cur.fetchall()).replace("[('", '').replace("',)]","")
+#         print(passw)
 
-        ##HASHING FOR INPUT##
-        user_in=self.lineEdit.text()+"Y@313:MaHdI313"
-        pass_in=self.lineEdit_2.text()+"Y@313:MaHdI313"
-        user_in_hashed = hashlib.md5(user_in.encode('utf-8')).hexdigest()
-        pass_in_hashed = hashlib.md5(pass_in.encode('utf-8')).hexdigest()
+#         ##HASHING FOR INPUT##
+#         user_in=self.lineEdit.text()+"Y@313:MaHdI313"
+#         pass_in=self.lineEdit_2.text()+"Y@313:MaHdI313"
+#         user_in_hashed = hashlib.md5(user_in.encode('utf-8')).hexdigest()
+#         pass_in_hashed = hashlib.md5(pass_in.encode('utf-8')).hexdigest()
 
-        print(user_in_hashed)
-        print(pass_in_hashed)
+#         print(user_in_hashed)
+#         print(pass_in_hashed)
 
 
-        if (user_in_hashed == str(users) and
-            pass_in_hashed == str(passw)):
-            self.accept()
-        elif (self.lineEdit.text() == '' or
-            self.lineEdit_2.text() == ''):
-            QMessageBox.warning(
-                self, 'Warning', 'Please Fill All Field Before LogIn!')
-        else:
-            QMessageBox.warning(
-                self, 'Error', 'Incorrect Username or Password!')
+#         if (user_in_hashed == str(users) and
+#             pass_in_hashed == str(passw)):
+#             self.accept()
+#         elif (self.lineEdit.text() == '' or
+#             self.lineEdit_2.text() == ''):
+#             QMessageBox.warning(
+#                 self, 'Warning', 'Please Fill All Field Before LogIn!')
+#         else:
+#             QMessageBox.warning(
+#                 self, 'Error', 'Incorrect Username or Password!')
             
-    def keyPressEvent(self, event):  
-        if event.key() == Qt.Key_Escape:
-            self.close()
-        elif event.key() == Qt.Key_Return:
-            self.handleLogin()
+#     def keyPressEvent(self, event):  
+#         if event.key() == Qt.Key_Escape:
+#             self.close()
+#         elif event.key() == Qt.Key_Return:
+#             self.handleLogin()
             
-class Table(QDialog):
-    def __init__(self, parent=None):
-        super(Table, self).__init__(parent)       
-        self.ui = Ui_Dialog()
-        self.ui.setupUi(self) 
-        self.ui.comboBox.addItems(['StartStop_conn','StartStop_det','StartStop_run'])
-        self.ui.comboBox.currentTextChanged.connect(self.show_data)
-        self.ui.comboBox.setCurrentIndex(2)
-        self.ui.btn_show_timeline.clicked.connect(self.export_timeline_thread)
-        self.ui.btn_to_excel.clicked.connect(self.export_excel)
+# class Table(QDialog):
+#     def __init__(self, parent=None):
+#         super(Table, self).__init__(parent)       
+#         self.ui = Ui_Dialog()
+#         self.ui.setupUi(self) 
+#         self.ui.comboBox.addItems(['StartStop_conn','StartStop_det','StartStop_run'])
+#         self.ui.comboBox.currentTextChanged.connect(self.show_data)
+#         self.ui.comboBox.setCurrentIndex(2)
+#         self.ui.btn_show_timeline.clicked.connect(self.export_timeline_thread)
+#         self.ui.btn_to_excel.clicked.connect(self.export_excel)
     
-    def export_excel(self):
-        try:
-            fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'EXCEL files (*.xlsx)')
-            df_det.to_excel(fname[0])
-            QMessageBox.information(self, "Complete", "Excel exported!")
-        except:
-            QMessageBox.warning(self, "Warning", "Enter the true path!")
-    def show_data(self):
-        try:
-            if self.ui.comboBox.currentText() == "StartStop_conn":
-                self.ui.tableWidget.setRowCount(0)
-                tablerow=0
-                for row in df_conn.index:
-                    self.ui.tableWidget.insertRow(tablerow)
-                    self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_conn['Start_Time'][row])))
-                    self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_conn['Stop_Time'][row])))
-                    tablerow+=1
-            elif self.ui.comboBox.currentText() == "StartStop_det":
-                self.ui.tableWidget.setRowCount(0)
-                tablerow=0
-                for row in df_det.index:
-                    self.ui.tableWidget.insertRow(tablerow)
-                    self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_det['Start_Time'][row])))
-                    self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_det['Stop_Time'][row])))
-                    tablerow+=1
-            elif self.ui.comboBox.currentText() == "StartStop_run":
-                self.ui.tableWidget.setRowCount(0)
-                tablerow=0
-                for row in df_run.index:
-                    self.ui.tableWidget.insertRow(tablerow)
-                    self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_run['Start_Time'][row])))
-                    self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_run['Stop_Time'][row])))
-                    tablerow+=1
-        except Exception as e:
-            with open('Error.txt', 'a+') as myfile:
-                myfile.write("\n"+str(dt.now())+": "+str(e))
+#     def export_excel(self):
+#         try:
+#             fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'EXCEL files (*.xlsx)')
+#             df_det.to_excel(fname[0])
+#             QMessageBox.information(self, "Complete", "Excel exported!")
+#         except:
+#             QMessageBox.warning(self, "Warning", "Enter the true path!")
+#     def show_data(self):
+#         try:
+#             if self.ui.comboBox.currentText() == "StartStop_conn":
+#                 self.ui.tableWidget.setRowCount(0)
+#                 tablerow=0
+#                 for row in df_conn.index:
+#                     self.ui.tableWidget.insertRow(tablerow)
+#                     self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_conn['Start_Time'][row])))
+#                     self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_conn['Stop_Time'][row])))
+#                     tablerow+=1
+#             elif self.ui.comboBox.currentText() == "StartStop_det":
+#                 self.ui.tableWidget.setRowCount(0)
+#                 tablerow=0
+#                 for row in df_det.index:
+#                     self.ui.tableWidget.insertRow(tablerow)
+#                     self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_det['Start_Time'][row])))
+#                     self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_det['Stop_Time'][row])))
+#                     tablerow+=1
+#             elif self.ui.comboBox.currentText() == "StartStop_run":
+#                 self.ui.tableWidget.setRowCount(0)
+#                 tablerow=0
+#                 for row in df_run.index:
+#                     self.ui.tableWidget.insertRow(tablerow)
+#                     self.ui.tableWidget.setItem(tablerow, 0, QTableWidgetItem(str(df_run['Start_Time'][row])))
+#                     self.ui.tableWidget.setItem(tablerow, 1, QTableWidgetItem(str(df_run['Stop_Time'][row])))
+#                     tablerow+=1
+#         except Exception as e:
+#             with open('Error.txt', 'a+') as myfile:
+#                 myfile.write("\n"+str(dt.now())+": "+str(e))
 
-    def export_timeline_thread(self):
-        fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'HTML files (*.html)')
-        # fname[0]
-        # try:
-        t = Thread(target=self.show_timeline, args=(str(fname[0]),), daemon=True)
-        t.start()
-        # except:
-        #     QMessageBox.warning(self, "Warning", "Enter the true path!")
+#     def export_timeline_thread(self):
+#         fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'HTML files (*.html)')
+#         # fname[0]
+#         # try:
+#         t = Thread(target=self.show_timeline, args=(str(fname[0]),), daemon=True)
+#         t.start()
+#         # except:
+#         #     QMessageBox.warning(self, "Warning", "Enter the true path!")
 
-    def show_timeline(self, path):
-        try:
-            if path != '':    
-                self.ui.label_timeline.setText('Saving...')
-                fig_1 = px.timeline(df_run, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Running":"yellow"})
-                fig_1.update_yaxes(ticks="outside", tickson="boundaries", autorange="reversed", showgrid=True, showspikes=True,  linewidth=2, tickfont=dict(
+#     def show_timeline(self, path):
+#         try:
+#             if path != '':    
+#                 self.ui.label_timeline.setText('Saving...')
+#                 fig_1 = px.timeline(df_run, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Running":"yellow"})
+#                 fig_1.update_yaxes(ticks="outside", tickson="boundaries", autorange="reversed", showgrid=True, showspikes=True,  linewidth=2, tickfont=dict(
 
-                    size=18
+#                     size=18
 
-                ))
-                fig_1.update_xaxes(ticks="outside",
-                                  tickson="boundaries", rangeslider_visible=True, showspikes=True, showgrid=True,  linewidth=2, title="DateTime")
+#                 ))
+#                 fig_1.update_xaxes(ticks="outside",
+#                                   tickson="boundaries", rangeslider_visible=True, showspikes=True, showgrid=True,  linewidth=2, title="DateTime")
 
-                fig_1.update_layout(template="plotly_dark")
-                fig_2 = px.timeline(df_conn, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Connection":"green"})
-                fig_3 = px.timeline(df_det, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Detection":"red"})
-                try:
-                    fig_1.add_trace(fig_2.data[0])
-                except:
-                    pass
-                try:
-                    fig_1.add_trace(fig_3.data[0])
-                except:
-                    pass
-                fig_1.write_html(path)
-                self.ui.label_timeline.setText('Complete!')
-            else:
-                self.ui.label_timeline.setText("Incorrect Path")
-        except Exception as e:
-            with open('Error.txt', 'a+') as myfile:
-                myfile.write("\n"+str(dt.now())+": "+str(e))    
+#                 fig_1.update_layout(template="plotly_dark")
+#                 fig_2 = px.timeline(df_conn, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Connection":"green"})
+#                 fig_3 = px.timeline(df_det, x_start='Start_Time', x_end='Stop_Time', y="Type", color="Type",color_discrete_map={"Detection":"red"})
+#                 try:
+#                     fig_1.add_trace(fig_2.data[0])
+#                 except:
+#                     pass
+#                 try:
+#                     fig_1.add_trace(fig_3.data[0])
+#                 except:
+#                     pass
+#                 fig_1.write_html(path)
+#                 self.ui.label_timeline.setText('Complete!')
+#             else:
+#                 self.ui.label_timeline.setText("Incorrect Path")
+#         except Exception as e:
+#             with open('Error.txt', 'a+') as myfile:
+#                 myfile.write("\n"+str(dt.now())+": "+str(e))    
         
        
         
@@ -288,7 +290,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             # print(df_conn)
             # print(rec_run_df)
 
-            dlg = Table()
+            dlg = Table(df_det, df_conn, df_run)
             dlg.exec()
         except Exception as e:
             with open('Error.txt', 'a+') as myfile:
