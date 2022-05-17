@@ -160,7 +160,7 @@
                   <item>
                    <widget class="QLabel" name="label_5">
                     <property name="text">
-                     <string> movement  is detected:</string>
+                     <string>movement  is detected:</string>
                     </property>
                    </widget>
                   </item>
@@ -171,6 +171,9 @@
                       <width>70</width>
                       <height>16777215</height>
                      </size>
+                    </property>
+                    <property name="cursor">
+                     <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="text">
                      <string>Enable</string>

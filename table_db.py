@@ -65,12 +65,12 @@ class Table(QDialog):
         fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'HTML files (*.html)')
         # fname[0]
         # try:
-        t = Thread(target=self.show_timeline, args=(str(fname[0]),self.df_det, self.df_conn, self.df_run), daemon=True)
+        t = Thread(target=self.show_timeline, args=(str(fname[0]),self.df_run, self.df_conn, self.df_det), daemon=True)
         t.start()
         # except:
         #     QMessageBox.warning(self, "Warning", "Enter the true path!")
 
-    def show_timeline(self, path, df_run, df_det, df_conn):
+    def show_timeline(self, path, df_run, df_conn, df_det):
         try:
             if path != '':    
                 self.ui.label_timeline.setText('Saving...')

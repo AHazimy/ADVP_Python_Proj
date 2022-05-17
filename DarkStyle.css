@@ -38,6 +38,12 @@ QLabel
 	color: #fff;
 
 }
+QLabel#label_img{
+	
+	border-radius: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	border-style: outset;
+}
 
 
 /*-----QMenuBar-----*/
@@ -377,7 +383,7 @@ QComboBox::drop-down
 
 QComboBox::down-arrow
 {
-    image: url(://arrow-down.png);
+    image: url(Img/arrow.png);
     width: 8px;
     height: 8px;
 }
@@ -401,7 +407,7 @@ QSpinBox::up-button,
 QDateTimeEdit::up-button
 {
 	border-top-right-radius:2px;
-	background-color: #777777;
+	background-color: #585858;
     width: 16px; 
     border-width: 1px;
 
@@ -411,11 +417,13 @@ QDateTimeEdit::up-button
 QSpinBox::up-button:hover, 
 QDateTimeEdit::up-button:hover
 {
-	background-color: #585858;
+	background-color: #777777;
 
 }
 
-
+QSpinBox:disabled{
+	background-color: gray;
+}
 QSpinBox::up-button:pressed, 
 QDateTimeEdit::up-button:pressed
 {
@@ -429,7 +437,7 @@ QDateTimeEdit::up-button:pressed
 QSpinBox::up-arrow,
 QDateTimeEdit::up-arrow
 {
-    image: url(://arrow-up.png);
+    image: url(Img/arrowup.png);
     width: 7px;
     height: 7px;
 
@@ -440,7 +448,7 @@ QSpinBox::down-button,
 QDateTimeEdit::down-button
 {
 	border-bottom-right-radius:2px;
-	background-color: #777777;
+	background-color: #585858;
     width: 16px; 
     border-width: 1px;
 
@@ -450,7 +458,7 @@ QDateTimeEdit::down-button
 QSpinBox::down-button:hover, 
 QDateTimeEdit::down-button:hover
 {
-	background-color: #585858;
+	background-color: #777777;
 
 }
 
@@ -468,7 +476,7 @@ QDateTimeEdit::down-button:pressed
 QSpinBox::down-arrow,
 QDateTimeEdit::down-arrow
 {
-    image: url(://arrow-down.png);
+    image: url(Img/arrow.png);
     width: 7px;
     height: 7px;
 
@@ -694,7 +702,9 @@ QCheckBox
 	border: none;
 
 }
-
+/* QCheckBox#checkBox_email{
+	cursor: pointer;
+} */
 
 QCheckBox::indicator
 {
