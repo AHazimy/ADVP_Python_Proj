@@ -29,12 +29,12 @@ from Cryptodome.Random import get_random_bytes
 from login_class import Login
 from table_db import Table
 
-#############For hide Console##############
-# import win32gui, win32con
-
-# hide = win32gui.GetForegroundWindow()
-# win32gui.ShowWindow(hide , win32con.SW_HIDE)
-###########################################
+#############To hide Console####################
+# import win32gui, win32con                    #
+#                                              #
+# hide = win32gui.GetForegroundWindow()        #
+# win32gui.ShowWindow(hide , win32con.SW_HIDE) #
+################################################
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -87,7 +87,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     first_time_after_detection = None
     
     def load_db(self, table_name, df):
-        """"""
+        """A function that loads the database"""
         try:    
             conn = sqlite3.connect("Report.db")
             cur = conn.cursor()
@@ -106,6 +106,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
     
     def show_table(self):
+        """A function that loads the database (using load_db()) and creates an object from class Table(),
+        then show table"""
         global df_conn
         global df_det
         global df_run
@@ -137,12 +139,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 myfile.write("\n"+str(dt.now())+": "+str(e))
     
     def start_run(self):
+        """A function that saves the time when the app is oppened"""
         self.rec_run_time=dt.now()
     
     def closeEvent(self, event):
+        """A function to close the app, with two options:
+        if option is 'no' nothing will happen,
+        if yes, all informations will be added to the database then close the app"""
+        
         close = QMessageBox.question(self,
                                      "QUIT",
-                                     "Are you sure want to stop process?",
+                                     "Are you sure you want to close the app?",
                                      QMessageBox.Yes | QMessageBox.No)
         try:
             if close == QMessageBox.Yes:
@@ -191,6 +198,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 myfile.write("\n"+str(dt.now())+": "+str(e))
             
     def add_to_combo_sound(self):
+        """A function that loads the sounds (*.wav) from the '/Sound/' folder,
+        and adds them to the comboBox list"""
+        
         sound_files=[]
         for file in os.listdir("Sound/"):
             if file.endswith(".wav"):
@@ -199,6 +209,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.comboBox.addItems(sound_files)
     
     def checkable_pause(self):
+        """"""
+        
         if self.checkBox_pause.isChecked() == True:
             self.spinBox_mute.setEnabled(True)
             self.label_3.setEnabled(True)
@@ -212,10 +224,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
             
     def play_sound(self):
+        """A function that read info from 'alertconfig.ini' and containes configurations for email,
+        if theres a detection, it will send an email and play the sound"""
+        
         send_email_first_time=0
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
-        port = 465  # For SSL
+        port = 465
         smtp_server = "smtp.gmail.com"
         sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
@@ -242,7 +257,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             except Exception as e:
                 print(e)
                 pass
-        # t=0
+        
         while True:
             
             if self.sound_value == 1:
@@ -251,7 +266,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     if send_email_first_time == 0:
                         send_email()
 
-                    if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(1)):
+                    if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
                         if self.checkBox_email.isChecked() == True:
                             send_email()
 
@@ -270,17 +285,21 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 time.sleep(1)
             time.sleep(1)
             try:
-                if dt.now() > self.email_date+pd.DateOffset(minutes=1):
+                if dt.now() > self.email_date+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
                     self.email_value=0
             except:
                 pass
             
             
     def thread_play_alert(self):
+        """One of the running threads at the beginning of the app"""
+        
         t = Thread(target=self.play_sound, daemon=True)
         t.start()
 
     def start_loop(self):  
+        """A function that config a UDP Client Socket,
+        and test the connection with the server, then receives the images and decrypt them"""
 
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
@@ -420,13 +439,19 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         
 
     def play_test(self):
+        """A function to test the chosen sound"""
+        
         winsound.PlaySound("Sound/"+str(self.comboBox.currentText()+".wav"), winsound.SND_FILENAME)
 
     def play_test_thread(self):
+        """A thread that runs when the play_test() is called"""
+        
         t1=Thread(target=self.play_test, daemon=True)
         t1.start()
 
-    def stop_loop(self):   
+    def stop_loop(self):
+        """A function to stop the sound by making the sound checkBox checked"""
+           
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         self.sound_value = 0
@@ -440,10 +465,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.play_btn.setEnabled(True)
 
     def thread(self):
+        """One of the running threads at the beginning of the app"""
+        
         t1=Thread(target=self.start_loop, daemon=True)
         t1.start()
 
     def load_theme(self):
+        """A function that loads the dark theme status from the file 'AlertConfig.ini'"""
+        
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         theme = configur.get('THEME','DARK')
@@ -456,6 +485,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.checkBox_theme.setChecked(False)
 
     def themes(self):
+        """A function thats save the last status of the dark theme"""
+        
         configur = ConfigParser()
         
         if self.checkBox_theme.isChecked() == False:
@@ -473,6 +504,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 
     def Dark_themes(self):
+        """A function that loads the theme from the css file"""
+        
         self.setStyleSheet(open('DarkStyle.css').read())
         
     def activate_emailBox(self):
@@ -484,6 +517,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.label_5.setEnabled(False)
 
 if __name__ == '__main__':
+    """Create an object from Login() class, and check the username and the password,
+    if they are True, the MainWindow() will be launched,
+    else, nothing will happened and you should try again"""
 
     import sys
     app = QApplication(sys.argv)

@@ -24,6 +24,8 @@ class Table(QDialog):
         self.ui.btn_to_excel.clicked.connect(lambda: self.export_excel(self.df_det))
     
     def export_excel(self, df_det):
+        """A function that exports excel file for the detection times"""
+        
         try:
             fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'EXCEL files (*.xlsx)')
             df_det.to_excel(fname[0])
@@ -31,7 +33,11 @@ class Table(QDialog):
         except Exception as e:
             print(e)
             QMessageBox.warning(self, "Warning", "Enter the true path!")
-    def show_data(self,df_det,df_conn,df_run):
+            
+            
+    def show_data(self,df_det,df_conn,df_run):    
+        """A function that show the databse in an organaized way inside the table"""
+    
         try:
             if self.ui.comboBox.currentText() == "StartStop_conn":
                 self.ui.tableWidget.setRowCount(0)
@@ -61,16 +67,18 @@ class Table(QDialog):
             with open('Error.txt', 'a+') as myfile:
                 myfile.write("\n"+str(dt.now())+": "+str(e))
 
+
     def export_timeline_thread(self):
+        """A thread will run when the show_timeline() function is called"""
+        
         fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'HTML files (*.html)')
-        # fname[0]
-        # try:
         t = Thread(target=self.show_timeline, args=(str(fname[0]),self.df_run, self.df_conn, self.df_det), daemon=True)
         t.start()
-        # except:
-        #     QMessageBox.warning(self, "Warning", "Enter the true path!")
+
 
     def show_timeline(self, path, df_run, df_conn, df_det):
+        """A function that creates a timeline using the dataframes"""
+        
         try:
             if path != '':    
                 self.ui.label_timeline.setText('Saving...')
