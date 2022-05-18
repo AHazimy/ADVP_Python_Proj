@@ -87,6 +87,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     first_time_after_detection = None
     
     def load_db(self, table_name, df):
+        """"""
         try:    
             conn = sqlite3.connect("Report.db")
             cur = conn.cursor()
@@ -290,13 +291,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label.setText(configur.get('DETECTION','NO-DETECT'))
         self.scan_label.setText('Connected to UDP Server')
         connected = True
-        BUFF_SIZE = configur.get('SETTING', 'buffer')
+        BUFF_SIZE = int(configur.get('SETTING', 'buffer'))
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
         UDPClientSocket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
         UDPClientSocket.setblocking(False)
         host_ip = configur.get('SETTING','IP')
-        port=configur.get('SETTING', 'port')
+        port=int(configur.get('SETTING', 'port'))
         serverAddressPort= (configur.get('SETTING','IP'), 1500)
         message = b'Hello'
 
@@ -389,7 +390,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     continue
                 
             elif PINGSTATUS == 0:
-                try:    
+                try:
+                    self.label_img.setPixmap(QPixmap("Img/no-camera.png"))    
                     if self.rec_conn_value == 1:
                         self.rec_conn_value = 0
                         rec_conn_df.loc[len(rec_conn_df.index), "Start_Time"] = self.temp_start_rec

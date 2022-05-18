@@ -48,11 +48,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def serverUDP(self):
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
-        BUFF_SIZE = configur.get('SETTING', 'buffer')
+        BUFF_SIZE = int(configur.get('SETTING', 'buffer'))
         Server=socket.socket( socket.AF_INET , socket.SOCK_DGRAM )
         Server.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
         host_ip = ''
-        port = configur.get('SETTING', 'port')
+        port = int(configur.get('SETTING', 'port'))
         socket_address = (host_ip,port)
         Server.bind(socket_address)
         self.statusBar().showMessage("UDP Server is Running")
