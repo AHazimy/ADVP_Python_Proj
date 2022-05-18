@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from configparser import ConfigParser
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -278,6 +279,13 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        def values():
+            config = ConfigParser()
+            config.read('AlertConfig.ini')
+            dur = config.get('SETTING','alert_dur')
+            return int(dur)
+        self.spinBox_mute.setValue(values())
+        
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate

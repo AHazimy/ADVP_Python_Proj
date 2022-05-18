@@ -6,7 +6,6 @@ import pandas as pd
 import winsound
 import time
 from MainWindow import Ui_MainWindow
-from table import Ui_Dialog
 from threading import *
 from datetime import datetime as dt
 import socket
@@ -18,7 +17,6 @@ import numpy as np
 import cv2
 import imutils
 import base64
-from loginUi4 import Ui_Form
 import hashlib
 import webbrowser
 import smtplib, ssl
@@ -42,14 +40,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
-        self.setWindowIcon(QIcon('Alert.png'))
+        self.setWindowIcon(QIcon('Img/Alert.png'))
         self.thread()
         self.thread_play_alert()
         self.checkBox_theme.toggled.connect(self.themes)
         self.load_theme()
+        # self.spinBox_mute.setValue(lambda:  int(ConfigParser().read('AlertConfig.ini').get('SETTING', 'alert_dur')) )
+        # print(int((ConfigParser().read('AlertConfig.ini')).get('SETTING', 'alert_dur')) )
         
         
-        self.label_img.setPixmap(QPixmap("images/H.png"))
+        self.label_img.setPixmap(QPixmap("Img/no-camera.png"))
         
         self.stop_btn.clicked.connect(self.stop_loop)
         self.add_to_combo_sound()
@@ -290,13 +290,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label.setText(configur.get('DETECTION','NO-DETECT'))
         self.scan_label.setText('Connected to UDP Server')
         connected = True
-        BUFF_SIZE = 65536
+        BUFF_SIZE = configur.get('SETTING', 'buffer')
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
         UDPClientSocket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
         UDPClientSocket.setblocking(False)
         host_ip = configur.get('SETTING','IP')
-        port=9999
+        port=configur.get('SETTING', 'port')
         serverAddressPort= (configur.get('SETTING','IP'), 1500)
         message = b'Hello'
 

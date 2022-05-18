@@ -6,6 +6,7 @@ import cv2, time, imutils
 from datetime import datetime
 import pandas as pd
 from MainWindow2 import Ui_MainWindow
+from configparser import ConfigParser
 import socket
 from threading import*
 import numpy as np
@@ -19,19 +20,16 @@ from Cryptodome.Util.Padding import pad,unpad
 from Cryptodome.Random import get_random_bytes
 
 
-
-
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
-        self.label_img.setPixmap(QPixmap("images/H.png"))
+        self.setWindowIcon(QIcon('Img/Alert.png'))
+        self.label_img.setPixmap(QPixmap("Img/H.png"))
         self.btn_play.clicked.connect(self.thread_play)
         self.btn_server.clicked.connect(self.thread_server)
         self.btn_apply_hash.clicked.connect(self.apply_hash)
         self.btn_export_hash.clicked.connect(self.add_hashed_to_db)
-        
-
     
     check=None
     buffer=None
@@ -48,14 +46,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         t_server.start()
 
     def serverUDP(self):
-        BUFF_SIZE = 65536
+        configur = ConfigParser()
+        configur.read('AlertConfig.ini')
+        BUFF_SIZE = configur.get('SETTING', 'buffer')
         Server=socket.socket( socket.AF_INET , socket.SOCK_DGRAM )
         Server.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
         host_ip = ''
-        port = 9999
+        port = configur.get('SETTING', 'port')
         socket_address = (host_ip,port)
         Server.bind(socket_address)
-        self.statusBar().showMessage("Running UDP Server...")
+        self.statusBar().showMessage("UDP Server is Running")
         print('Listening at:',socket_address)
         self.btn_server.setEnabled(False)
         i=0
@@ -83,7 +83,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.statusBar().showMessage("Opening Camera...")
         status_list = [None, None]
         times = []
-        df=pd.DataFrame(columns=["Start", "End"])
+        
+        ##To do for timeline on server
+        # df=pd.DataFrame(columns=["Start", "End"])
+        
         video = cv2.VideoCapture(0)
 
         self.statusBar().showMessage("Camera is opened")
@@ -124,7 +127,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             print("status is: "+str(self.Status))
             
     def apply_hash(self):
-        key = "Y@313:MaHdI313"
+        key = "Y@1414:M@HdI1414"
         username=self.lineEdit_username.text()+key
         hashed_username = hashlib.md5(username.encode('utf-8')).hexdigest()
         password=self.lineEdit_password.text()+key
@@ -144,17 +147,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         conn.close()
         QMessageBox.information(self, 'Done', 'Exporting password file completed!')
         
-    
-        
     def closeEvent(self, event):
         close = QMessageBox.question(self,
                                      "QUIT",
                                      "Are you sure want to stop process?",
                                      QMessageBox.Yes | QMessageBox.No)
         if close == QMessageBox.Yes:
-            
             event.accept()
-            # cv2.destroyAllWindows()
             self.camValue=1
         else:
             event.ignore()

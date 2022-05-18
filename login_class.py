@@ -40,8 +40,8 @@ class Login(QDialog, Ui_Form):
         print(passw)
 
         ##HASHING FOR INPUT##
-        user_in=self.lineEdit.text()+"Y@313:MaHdI313"
-        pass_in=self.lineEdit_2.text()+"Y@313:MaHdI313"
+        user_in=self.lineEdit.text()+"Y@1414:M@HdI1414"
+        pass_in=self.lineEdit_2.text()+"Y@1414:M@HdI1414"
         user_in_hashed = hashlib.md5(user_in.encode('utf-8')).hexdigest()
         pass_in_hashed = hashlib.md5(pass_in.encode('utf-8')).hexdigest()
 
