@@ -9,7 +9,7 @@ base = None
 if sys.platform == "win32":  
     base = "Win32GUI"  
 
-executables = [Executable("Alert.py", base=base, icon="Alert.ico")]
+executables = [Executable("Server.py", base=base, icon="Alert.ico")]
 
 packages = ["idna", "base64","MainWindow", "table", "os", "PyQt5.QtCore", "PyQt5.QtGui", "PyQt5.QtWidgets", "socket", "threading", "winsound", "time", "configparser", "datetime", "subprocess","plotly","numpy", "cv2", "imutils","hashlib","webbrowser","smtplib","ssl","PIL","json","Cryptodome", "login_class","table_db"]
 # addtional_mods = ['numpy.core._methods', 'numpy.lib.format', 'tkinter.filedialog']
@@ -22,9 +22,9 @@ options = {
 }
 
 setup(
-    name = "Alert",
+    name = "Server",
     options = options,
     version = "1.1",
-    description = 'A Client that connects to the server and receive a specific value to beep',
+    description = 'The server of the Alert app',
     executables = executables
 )

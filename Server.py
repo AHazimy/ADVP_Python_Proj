@@ -38,14 +38,21 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     Status=0
     
     def thread_server(self):
+        """A thread that calls serverUDP() function when server button is clicked"""
+        
         t_server = Thread(target=self.serverUDP, daemon=True)
         t_server.start()
         
     def thread_play(self):
+        """A thread that calls loadImage() function when open_camera button is clicked"""
+        
         t_server = Thread(target=self.loadImage, daemon=True)
         t_server.start()
 
     def serverUDP(self):
+        """A function that configs the UDP Server Socket, and encrypt the image,
+        then send it with the movement status (0 or 1) to the clients"""
+        
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         BUFF_SIZE = int(configur.get('SETTING', 'buffer'))
@@ -78,7 +85,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.statusBar().showMessage("Server is UP")
             time.sleep(0.02)
 
+
     def loadImage(self):
+        """A function that takes the image then detect the movment"""
+        
         first_frame = None
         self.statusBar().showMessage("Opening Camera...")
         status_list = [None, None]
@@ -126,7 +136,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             time.sleep(0.02)
             print("status is: "+str(self.Status))
             
+            
     def apply_hash(self):
+        """A function that applies the hashfunction 'MD5' to the username and password"""
+        
         key = "Y@1414:M@HdI1414"
         username=self.lineEdit_username.text()+key
         hashed_username = hashlib.md5(username.encode('utf-8')).hexdigest()
@@ -136,6 +149,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label_hashed_password.setText(hashed_password)
 
     def add_hashed_to_db(self):
+        """A function that exports the hashed username and password as (.db) file (sqlite)"""
+        
         fname = QFileDialog.getSaveFileName(self, 'Save file', '', 'DB file (*.db)')
         conn = sqlite3.connect(fname[0]) 
         c = conn.cursor()

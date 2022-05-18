@@ -23,6 +23,10 @@ class Login(QDialog, Ui_Form):
     
         
     def handleLogin(self):
+        """A function that applies the H-MAC for the two inputs (Username and password),
+        then compares them to login data stored in the database, if they matche the stored data,
+        the user will be able to login into the app, else the request will be rejected"""
+        
         db_files=[]
         for file in os.listdir("PasswordDB/"):
             if file.endswith(".db"):
@@ -55,12 +59,14 @@ class Login(QDialog, Ui_Form):
         elif (self.lineEdit.text() == '' or
             self.lineEdit_2.text() == ''):
             QMessageBox.warning(
-                self, 'Warning', 'Please Fill All Field Before LogIn!')
+                self, 'Warning', 'Please fill all fields before LogIn!')
         else:
             QMessageBox.warning(
                 self, 'Error', 'Incorrect Username or Password!')
             
     def keyPressEvent(self, event):  
+        """A function that takes a specific pressed key, and closes the window or call handleLogin() function (depending on the pressed key)"""
+        
         if event.key() == Qt.Key_Escape:
             self.close()
         elif event.key() == Qt.Key_Return:
