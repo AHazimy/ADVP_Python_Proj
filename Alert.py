@@ -229,7 +229,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         configur.read('AlertConfig.ini')
         port = 465
         smtp_server = "smtp.gmail.com"
-        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address 
+        sender_email = "...@gmail.com"  # Enter your address 
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
         password = '***********' #Enter your email password
         message= """From: From Person <from@fromdomain.com>
