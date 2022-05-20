@@ -44,10 +44,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.thread()
         self.thread_play_alert()
         self.checkBox_theme.toggled.connect(self.themes)
-        self.load_theme()
-        # self.spinBox_mute.setValue(lambda:  int(ConfigParser().read('AlertConfig.ini').get('SETTING', 'alert_dur')) )
-        # print(int((ConfigParser().read('AlertConfig.ini')).get('SETTING', 'alert_dur')) )
-        
+        self.load_theme()   
         
         self.label_img.setPixmap(QPixmap("Img/no-camera.png"))
         
