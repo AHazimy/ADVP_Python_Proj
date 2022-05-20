@@ -1,6 +1,6 @@
 # ADVP_Python_Proj
->##__Python course project__
-["Test]("./Alert.py")
+>_Python course project_
+["Test"]("/Alert.py")
 Introduction:
 
 Because of the rise in crime and theft in our communities, a home security system is becoming increasingly vital. They can offer us live or recorded video footage from within our property. Indeed, the installation of surveillance devices has resulted in the arrest of many criminals due to undeniable video evidence. This is why many individuals invest in security cameras to secure their homes and business.
