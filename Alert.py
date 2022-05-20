@@ -222,16 +222,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
     def play_sound(self):
         """A function that read info from 'alertconfig.ini' and containes configurations for email,
-        if theres a detection, it will send an email and play the sound"""
+        if theres a detection, it will send an email and play the sound (Enable Email "SecureLess" in Gmail.com to make this send email function works)"""
         
         send_email_first_time=0
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
         port = 465
         smtp_server = "smtp.gmail.com"
-        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address
+        sender_email = "hadi.shamas.771@gmail.com"  # Enter your address 
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
-        password = 'zZ@5564576239@Aa'
+        password = '***********' #Enter your email password
         message= """From: From Person <from@fromdomain.com>
                     To: To Person <to@todomain.com>
                     Subject: Movement detected
@@ -485,15 +485,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         """A function thats save the last status of the dark theme"""
         
         configur = ConfigParser()
-        
+        configur.read('AlertConfig.ini')
         if self.checkBox_theme.isChecked() == False:
-            configur.read('AlertConfig.ini')
             configur.set('THEME','DARK','False')
             with open('AlertConfig.ini','w') as myfile:
                 configur.write(myfile)
             self.setStyleSheet("""""")
-        elif self.checkBox_theme.isChecked() == True:
-            configur.read('AlertConfig.ini')
+        elif self.checkBox_theme.isChecked() == True:        
             configur.set('THEME','DARK','True')
             with open('AlertConfig.ini','w') as myfile:
                 configur.write(myfile)

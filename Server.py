@@ -89,6 +89,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def loadImage(self):
         """A function that takes the image then detect the movment"""
         
+        config=ConfigParser()
+        config.read('AlertConfig.ini')
+        contour_area=int(config.get('SETTING', 'contour'))
+        
         first_frame = None
         self.statusBar().showMessage("Opening Camera...")
         status_list = [None, None]
@@ -118,7 +122,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             thresh_frame = cv2.dilate(thresh_frame, None, iterations=2)
             (cnts,_) = cv2.findContours(thresh_frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
             for contour in cnts:
-                if cv2.contourArea(contour) < 20000:
+                if cv2.contourArea(contour) < contour_area:
                     continue
                 self.Status=1
                 (x,y,w,h) = cv2.boundingRect(contour)
