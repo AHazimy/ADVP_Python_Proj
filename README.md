@@ -78,6 +78,8 @@ What is the surveillance system?
   
 	
 ## How to run the program:
+>If your `FireWall` is ON, you should `Allow` this app in the `Firewall Settings`, or turn it off
+
 1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
   
   ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Run_camera_and_server.png)
