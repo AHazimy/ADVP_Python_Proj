@@ -50,6 +50,6 @@ What is the surveillance system?
 	
 ## How to run the program:
 1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
-  - 
+  - ![Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/ScreenShots/Run_camera_and_server.png)
 
 _@BY_Aly-Fatima_HZ :+1:_
