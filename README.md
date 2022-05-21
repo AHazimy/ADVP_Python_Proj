@@ -60,12 +60,14 @@ What is the surveillance system?
 
   ### You should export the `Password` for the client:
   
-  ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Export_password.png)
+  ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Export_pass_to_client.png)
   
-  :point_right:Got to `Password` tab :point_right:Write your `Username` and `Password` :point_right:Press `Apply Hash` :point_right:Export the `Password` file (.db) to the [PasswordDB](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/PasswordDB) folder by pressing `Export`
+  :point_right:Got to `Password` tab :point_right:Write your `Username` and `Password` :point_right:Press `Apply Hash Function` :point_right:Export the `Password` file (.db) to the [PasswordDB](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/PasswordDB) folder by pressing `Export`
   
 2. Open [Client](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py):
   >You can run `Alert.py` on the same machine with the server using LoopBackIP `127.0.0.1` (in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini)), or on another machine
+
+  ![Client](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Run_camera_and_server.png)
 
   
   
