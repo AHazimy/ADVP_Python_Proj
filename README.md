@@ -67,7 +67,34 @@ What is the surveillance system?
 2. Open [Client](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py):
   >You can run `Alert.py` on the same machine with the server using LoopBackIP `127.0.0.1` (in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini)), or on another machine
 
-  ![Client](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Run_camera_and_server.png)
+  ![Client_Login](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Login.png)
+  
+  :point_right:Enter your `Username` and `Password`
+  
+  ![Client](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Client.png)
+  
+  >Now your `Client` app is running
+  
+  ### Explaination:
+   `Connection Status`: if the client is connected to server (Ping has a reply) :arrow_right: `Scanning`, if no :arrow_right: `Reconnecting`
+   
+   >On the same machine the ping always has a reply, so `Connection Status` is always `Scanning`
+      
+   `Email Notification`: if check box is checked, when a movement's detected you will receive an email contain the time of the movement. (Find the email in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini))
+   
+   `Theme`: `Dark` or `Light` theme, the last theme will be loaded when the app is relaunched
+   
+   `Pause Duration`: the duration of the mute of the app, (the time of detection + duration value), you can change this value by checking the check box, or in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini)
+   
+   `Alert Sound`: choose the alert sound of the detection, you can test it by pressing `:arrow_forward:`, if you want to add a sound :arrow_right: import any (.wav) to  [Sound_Folder](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Sound)
+   
+   `Date/Time of last detection`: the datetime of the last detection of the movements
+   
+   `Live Video Streaming`: the `Live ENCRYPTED Video` captured by the camera of the `Server`
+   
+   `Stop`: after detect a movement, press `Stop` button to mute the sound for the same duration in `Pause Duration`
+   
+      
 
   
   
