@@ -1,4 +1,4 @@
-# ADVP_Python_Proj
+# ADVP_Python_Proj with [DR.Ali Komaty](https://github.com/AKomaty)
 >_Python course project_
 
 ## Introduction:
