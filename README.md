@@ -1,8 +1,6 @@
 # ADVP_Python_Proj
 >_Python course project_
 
-[Test](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py)
-
 ## Introduction:
 
 Because of the rise in crime and theft in our communities, a home security system is becoming increasingly vital. They can offer us live or recorded video footage from within our property. Indeed, the installation of surveillance devices has resulted in the arrest of many criminals due to undeniable video evidence. This is why many individuals invest in security cameras to secure their homes and business.
@@ -47,6 +45,37 @@ What is the surveillance system?
 	* An encrypted video is transferred between the server and the client using AES using CBC mode.
 	* The application will auto-reconnect in case the connection was lost.
 	* Notify the client by sending an email when an object is detected.
+	
+## Package to install:
+   `~$ pip install pandas`
+   
+   `~$ pip install pyqt5`
+   
+   `~$ pip install numpy`
+   
+   `~$ pip install opencv`
+   
+   `~$ pip install imutils`
+   
+   `~$ pip install base64`
+   
+   `~$ pip install hashlib`
+   
+   `~$ pip install webbrowser`
+   
+   `~$ pip install smtplib`
+    
+   `~$ pip install ssl`
+   
+   `~$ pip install pillow`
+   
+   `~$ pip install pycryptodome`
+   
+   `~$ pip install plotly`
+   
+   `~$ pip install plotly.express`
+   
+  
 	
 ## How to run the program:
 1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
@@ -94,10 +123,18 @@ What is the surveillance system?
    
    :diamond_shape_with_a_dot_inside: `Stop`: after detect a movement, press `Stop` button to mute the sound for the same duration in `Pause Duration`
    
+   :diamond_shape_with_a_dot_inside: `SQL`: by pressing `Open SQL Data` button you'll get the window below:
+   
+   ![SQL](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/SQL.png)
+    
+   :small_blue_diamond:`The comboBox list` is for three dataframe: :white_medium_small_square:App_Running :white_medium_small_square:Connection_Between_Server_And_Client :white_medium_small_square:Detection_Time, (Saved using `SQLite` Database)
+   
+   :small_blue_diamond:`Export Timeline` button is to export a timeline graph of this three dataframe using `Plotly` lib
+   
+   :small_blue_diamond:`Export Excel` button is to export an excel for the `Detection` dataframe
+     
       
 
   
   
-  
-
-_@BY_Aly-Fatima_HZ :+1:_ :copyright:
+_@BY_Aly-Fatima_HZ:copyright: :+1:_ 
