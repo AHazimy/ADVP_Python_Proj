@@ -56,6 +56,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.btn_sql.clicked.connect(self.show_table)
         self.checkBox_email.toggled.connect(self.activate_emailBox)
        
+    """We use 'global' and 'self' with variables for """
+       
     global rec_conn_df
     global rec_det_df
     global rec_run_df
@@ -208,7 +210,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def checkable_pause(self):
         """"""
         
-        if self.checkBox_pause.isChecked() == True:
+        if self.checkBox_pause.isChecked():
             self.spinBox_mute.setEnabled(True)
             self.label_3.setEnabled(True)
         else:
@@ -229,7 +231,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         configur.read('AlertConfig.ini')
         port = 465
         smtp_server = "smtp.gmail.com"
-        sender_email = "...@gmail.com"  # Enter your address 
+        sender_email = "example@gmail.com"  # Enter your address 
         receiver_email = configur.get('SETTING','rec_email')  # Enter receiver address
         password = '***********' #Enter your email password
         message= """From: From Person <from@fromdomain.com>
@@ -254,23 +256,28 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             except Exception as e:
                 print(e)
                 pass
-        
+            finally:
+                print("Email Not Sent")
+        cond1=self.email_value == 0
+        cond2=self.checkBox_email.isChecked() == True
+        cond3=self.first_time_after_detection != None
+        cond4=dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur')))
         while True:
             
             if self.sound_value == 1:
                 
-                if self.email_value == 0 and self.checkBox_email.isChecked() == True:
+                if cond1 and cond2:
                     if send_email_first_time == 0:
                         send_email()
 
-                    if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
-                        if self.checkBox_email.isChecked() == True:
+                    if cond3 and cond4:
+                        if self.checkBox_email.isChecked():
                             send_email()
 
                 self.email_value = 1    
-                if self.checkBox_pause.isChecked() == True:
+                if self.checkBox_pause.isChecked():
                     
-                    if self.first_time_after_detection != None and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=self.spinBox_mute.value()):
+                    if cond3 and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=self.spinBox_mute.value()):
                         winsound.PlaySound(r"Sound/"+str(self.comboBox.currentText()+".wav"), winsound.SND_FILENAME) 
                     time.sleep(1)  
                 else:
@@ -285,7 +292,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 if dt.now() > self.email_date+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
                     self.email_value=0
             except:
-                pass
+                continue
             
             
     def thread_play_alert(self):
@@ -401,7 +408,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 except Exception as serror:
                     with open('Error.txt', 'a+') as myfile:
                         myfile.write("\n"+str(dt.now())+": "+str(serror))
-                    self.scan_label.setText('Scanning.')
+                    self.scan_label.setText('______')
                     time.sleep(0.02)
                     continue
                 

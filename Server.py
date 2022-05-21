@@ -1,4 +1,4 @@
-from tracemalloc import Frame
+# from tracemalloc import Frame
 from PyQt5.QtWidgets import*
 from PyQt5.QtCore import*
 from PyQt5.QtGui import*
@@ -96,9 +96,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         first_frame = None
         self.statusBar().showMessage("Opening Camera...")
         status_list = [None, None]
-        times = []
         
-        ##To do for timeline on server
+        times = []
+        ##To do for timeline on server with 'times' list
         # df=pd.DataFrame(columns=["Start", "End"])
         
         video = cv2.VideoCapture(0)
