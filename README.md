@@ -48,6 +48,8 @@ What is the surveillance system?
 	* The application will auto-reconnect in case the connection was lost.
 	* Notify the client by sending an email when an object is detected.
 	
-### How to run the program:
+## How to run the program:
 1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
   - 
+
+_@BY_Aly-Fatima_HZ :+1:_
