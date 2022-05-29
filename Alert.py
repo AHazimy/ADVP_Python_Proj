@@ -164,7 +164,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 rec_run_df.loc[len(rec_run_df.index), "Start_Time"] = self.rec_run_time
                 rec_run_df.loc[len(rec_run_df.index)-1, "Stop_Time"] = dt.now()
                 rec_run_df.loc[len(rec_run_df.index)-1, "Type"] = "Running"
-
+    
                 conn = sqlite3.connect("Report.db")
                 cur = conn.cursor()
 
@@ -217,11 +217,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.spinBox_mute.setEnabled(False)
             self.label_3.setEnabled(False)
             
-    email_value = 0
-    email_date = None  
-    image_to_send=None      
-            
-            
+    
+    email_value, email_date, image_to_send = 0,None,None 
+                 
     def play_sound(self):
         """A function that read info from 'alertconfig.ini' and containes configurations for email,
         if theres a detection, it will send an email and play the sound (Enable Email "SecureLess" in Gmail.com to make this send email function works)"""
@@ -255,7 +253,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 print("EMail sended")
             except Exception as e:
                 print(e)
-                pass
             finally:
                 print("Email Not Sent")
         cond1=self.email_value == 0
@@ -313,7 +310,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label.setStyleSheet('background-color:rgb(0, 255, 0)')
         self.label.setText(configur.get('DETECTION','NO-DETECT'))
         self.scan_label.setText('Connected to UDP Server')
-        connected = True
         BUFF_SIZE = int(configur.get('SETTING', 'buffer'))
         UDPClientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -321,7 +317,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         UDPClientSocket.setblocking(False)
         host_ip = configur.get('SETTING','IP')
         port=int(configur.get('SETTING', 'port'))
-        serverAddressPort= (configur.get('SETTING','IP'), 1500)
         message = b'Hello'
 
         PINGSTATUS = 0
@@ -329,7 +324,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         j=0
         while True:
             response = subprocess.call("ping -n 1 " + host_ip, shell=True)
-            # and then check the response...
             if response == 0:
                 PINGSTATUS = 1
             else:
