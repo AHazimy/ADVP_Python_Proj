@@ -1,0 +1,15 @@
+PyQt5
+pandas
+configparser
+numpy
+plotly
+plotly.express
+opencv-python
+imutils
+pybase64
+secure-smtplib
+Pillow
+pycryptodome
+hashlib
+pycopy-webbrowser
+ssl
