@@ -80,22 +80,22 @@ What is the surveillance system?
   
 	
 ## How to run the program:
->If your `FireWall` is ON, you should `Allow` this app in the `Firewall Settings`, or turn it off
+>If your `FireWall` is ON, you should `Allow` this app is in the `Firewall Settings`, or turn it off
 
 1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
   
   ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Run_camera_and_server.png)
   
-  :point_right:Press `Open Camera`
-  :point_right:Press `Run Server`
+  :point_right: Press `Open Camera`
+  :point_right: Press `Run Server`
   
-  >Now your server is up, and avilable to accept clients connections
+  >Now your server is up, and available to accept clients' connections
 
   ### You should export the `Password` for the client:
   
   ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Export_pass_to_client.png)
   
-  :point_right:Got to `Password` tab :point_right:Write your `Username` and `Password` :point_right:Press `Apply Hash Function` :point_right:Export the `Password` file (.db) to the [PasswordDB](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/PasswordDB) folder by pressing `Export`
+  :point_right: Go to `Password` tab :point_right: Write your `Username` and `Password` :point_right: Press `Apply Hash Function` :point_right:Export the `Password` file (.db) to the [PasswordDB](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/PasswordDB) folder by pressing `Export`
   
 2. Open [Client](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py):
   >You can run `Alert.py` on the same machine with the server using LoopBackIP `127.0.0.1` (in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini)), or on another machine
@@ -141,4 +141,4 @@ What is the surveillance system?
 
   
   
-_@BY_Aly-Fatima_HZ:copyright: :+1:_ 
+_@BY-[Aly](https://github.com/AHazimy)-&-[Fatima](https://github.com/hazimyfatima)-HZ:copyright::+1:_
