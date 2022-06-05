@@ -49,33 +49,7 @@ What is the surveillance system?
 	* Notify the client by sending an email when an object is detected.
 	
 ## Package to install:
-   `~$ pip install pandas`
-   
-   `~$ pip install pyqt5`
-   
-   `~$ pip install numpy`
-   
-   `~$ pip install opencv`
-   
-   `~$ pip install imutils`
-   
-   `~$ pip install base64`
-   
-   `~$ pip install hashlib`
-   
-   `~$ pip install webbrowser`
-   
-   `~$ pip install smtplib`
-    
-   `~$ pip install ssl`
-   
-   `~$ pip install pillow`
-   
-   `~$ pip install pycryptodome`
-   
-   `~$ pip install plotly`
-   
-   `~$ pip install plotly.express`
+   `pip install -r requirements.txt`
    
   
 	
