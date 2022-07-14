@@ -56,7 +56,7 @@ What is the surveillance system?
 ## How to run the program:
 >If your `FireWall` is ON, you should `Allow` this app is in the `Firewall Settings`, or turn it off
 
-1. Open [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
+1. Open `Server.py` [Server](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Server.py):
   
   ![Server](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Run_camera_and_server.png)
   
@@ -71,7 +71,7 @@ What is the surveillance system?
   
   :point_right: Go to `Password` tab :point_right: Write your `Username` and `Password` :point_right: Press `Apply Hash Function` :point_right:Export the `Password` file (.db) to the [PasswordDB](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/PasswordDB) folder by pressing `Export`
   
-2. Open [Client](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py):
+2. Open `Alert.py` [Client](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/Alert.py):
   >You can run `Alert.py` on the same machine with the server using LoopBackIP `127.0.0.1` (in [AlertConfig.ini](https://github.com/AHazimy/ADVP_Python_Proj/edit/main/AlertConfig.ini)), or on another machine
 
   ![Client_Login](https://github.com/AHazimy/ADVP_Python_Proj/blob/main/ScreenShots/Login.png)
