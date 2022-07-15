@@ -7480,3 +7480,394 @@
 2022-07-14 10:25:41.285679: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-07-14 10:25:41.442625: [WinError 10054] An existing connection was forcibly closed by the remote host
 2022-07-14 23:01:38.986333: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:13:06.020461: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.099872: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.200647: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.277123: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.357413: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.438785: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.517672: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.599218: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.676543: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.757912: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.839294: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:06.918970: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.001651: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.076472: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.158939: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.240471: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.318020: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.401234: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.475841: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.572612: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.653553: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.737201: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.813626: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.898275: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:07.975556: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.056988: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.136805: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.211551: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.293031: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.374107: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.455382: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.536621: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.611534: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.693230: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.776699: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.873290: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:08.947493: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.031896: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.123864: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.207836: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.283635: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.367948: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.460065: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.541152: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.619639: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.703417: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.795868: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.876214: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:09.957281: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.038928: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.120002: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.195701: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.281101: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.356597: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.437905: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.518416: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.602986: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.677032: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.777503: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.865899: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:10.949181: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.036027: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.124939: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.208477: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.285492: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.368612: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.460629: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.540063: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.622858: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.701523: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.780329: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.861076: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:11.941359: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.023430: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.102648: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.181619: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.260039: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.339944: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.423257: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.501589: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.595768: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.682311: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.759543: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.841927: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.918108: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:12.998205: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.078771: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.164017: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.243904: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.322008: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.412410: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.499089: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.573694: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-07-14 23:13:13.678610: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:14:24.466170: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:15:57.897813: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:16:38.199535: wrapped C/C++ object of type QLabel has been deleted
+2022-07-14 23:18:50.987726: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:04.877274: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:04.964176: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.040588: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.130228: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.216413: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.313399: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.390681: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.473400: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.563428: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.640814: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.726455: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.819550: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.890899: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:05.983637: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.061627: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.140989: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.227690: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.313569: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.391069: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.478791: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.565826: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.650170: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.727678: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.816928: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.891320: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:06.978952: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.067030: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.141361: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.229017: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.313076: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.391470: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.479151: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.563561: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.641647: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.730255: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.818332: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.911120: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:07.991746: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.084372: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.172598: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.263476: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.349855: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.449805: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.541592: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.629874: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.716120: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.800894: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.891650: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:08.983404: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.073165: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.167945: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.269640: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.357404: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.457138: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.555875: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-14 23:19:09.642332: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:10.801003: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:15.641402: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:15.733158: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:15.827904: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:15.920654: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.019391: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.134595: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.240308: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.335055: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.436782: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.532222: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.626970: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.712740: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.813471: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:16.915198: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.005955: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.095715: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.187488: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.276233: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.383945: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.480227: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.573487: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.668319: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.752104: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.856014: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:17.952027: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.050465: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.155249: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.248998: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.333786: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.431938: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.520701: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.615988: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.708798: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.802549: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.889316: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:18.981071: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.083433: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.186166: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.277919: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.363692: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.450457: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.552285: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.638563: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.728323: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.823070: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:19.916819: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.012596: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.101933: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.203876: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.306602: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.398356: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.483713: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.579459: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.673207: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.758978: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.858711: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:20.964431: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.053190: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.168881: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.271607: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.366358: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.460108: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.556849: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.651598: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.734536: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.848233: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:21.948963: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.058669: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.175357: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.275091: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.387799: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.488532: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.586258: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.671031: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.766776: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.871069: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:22.973665: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.080627: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.200823: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.292577: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.395306: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.513989: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.640651: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.749359: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.850089: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:23.968773: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.066512: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.168239: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.280797: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.394493: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.519160: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.630639: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.747325: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.858031: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:24.988681: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.092418: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.200723: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.299461: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.390217: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.473993: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.569252: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.666566: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.764327: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:25.892985: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.009671: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.134339: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.243047: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.340835: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.443560: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.559251: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.656793: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.741566: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.833124: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:26.924880: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.016633: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.111381: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.210116: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.305861: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.398182: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.490592: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.589294: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.676078: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.772368: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.867426: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:27.961175: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.059910: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.151667: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.243421: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.334179: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.425931: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.520679: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.629387: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.722148: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.823876: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:28.931587: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.032318: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.128573: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.237282: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.334702: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.425457: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.521201: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.610961: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.703713: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.789484: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.882236: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:29.973991: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.068738: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.159494: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.252247: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.340012: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.429771: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.520528: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.622895: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.724798: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.818548: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:30.911301: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.003062: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.100799: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.212502: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.307247: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.407977: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.499732: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.589492: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.697719: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.786483: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.875719: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:31.973995: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.062352: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.158009: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.252512: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.373187: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.500846: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.603571: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.694329: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.787447: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.877244: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:32.969960: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.069233: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.174468: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.272206: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.363960: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.463694: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.558440: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.660168: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.764407: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.854224: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:33.945986: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.033747: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.129834: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.227705: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.329610: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.419888: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.511642: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.603397: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.703129: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.796879: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.892627: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:34.987376: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.076137: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.178517: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.280245: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.369008: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.464280: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.552553: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.646301: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.745580: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.844317: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:35.935073: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.024832: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.118582: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.214326: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.320042: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.426757: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.533472: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.634203: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.728950: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.832672: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:36.925432: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.021176: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.120421: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.233384: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.332121: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.432850: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.545547: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.660749: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.779950: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:37.890167: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:38.007364: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:38.097665: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:38.188420: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:38.277182: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:26:38.363951: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:27:11.224979: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:28:23.765057: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:28:23.881745: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2022-07-15 10:29:47.223168: [WinError 10035] A non-blocking socket operation could not be completed immediately

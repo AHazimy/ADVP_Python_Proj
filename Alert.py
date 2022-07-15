@@ -223,7 +223,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def play_sound(self):
         """A function that read info from 'alertconfig.ini' and containes configurations for email,
         if theres a detection, it will send an email and play the sound (Enable Email "SecureLess" in Gmail.com to make this send email function works)"""
-        
+        print("HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+        print("HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+        print("HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+        print("HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
         send_email_first_time=0
         configur = ConfigParser()
         configur.read('AlertConfig.ini')
@@ -258,7 +261,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         cond1=self.email_value == 0
         cond2=self.checkBox_email.isChecked() == True
         cond3=self.first_time_after_detection != None
-        cond4=dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur')))
+        #cond4=
         while True:
             
             if self.sound_value == 1:
@@ -267,7 +270,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     if send_email_first_time == 0:
                         send_email()
 
-                    if cond3 and cond4:
+                    if cond3 and dt.now() > self.first_time_after_detection+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
                         if self.checkBox_email.isChecked():
                             send_email()
 
@@ -285,6 +288,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 self.label.setStyleSheet('background-color:red')
                 time.sleep(1)
             time.sleep(1)
+            
             try:
                 if dt.now() > self.email_date+pd.DateOffset(minutes=int(configur.get('SETTING', 'send_dur'))):
                     self.email_value=0
