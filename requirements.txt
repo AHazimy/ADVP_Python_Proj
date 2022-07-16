@@ -9,7 +9,6 @@ imutils
 pybase64
 secure-smtplib
 Pillow
-pycryptodome
-hashlib
+pycryptodomex
 pycopy-webbrowser
 ssl
