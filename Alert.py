@@ -18,7 +18,7 @@ import cv2
 import imutils
 import base64
 import hashlib
-import webbrowser
+#import webbrowser
 import smtplib, ssl
 from PIL import Image
 import json

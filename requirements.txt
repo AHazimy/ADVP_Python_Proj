@@ -10,5 +10,4 @@ pybase64
 secure-smtplib
 Pillow
 pycryptodomex
-pycopy-webbrowser
 ssl
